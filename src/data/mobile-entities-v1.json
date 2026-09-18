@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "entities": [
+    {
+      "id": "ship-001",
+      "name": "Maritime Convoy 01",
+      "type": "SHIP",
+      "owner": "SIM",
+      "route": "sea-mrs-suez",
+      "progress": 0.18,
+      "speedKph": 45,
+      "status": "MOVING",
+      "loop": true,
+      "icon": "./src/assets/icons/militaire/bateau_militaire.png"
+    },
+    {
+      "id": "plane-001",
+      "name": "Air Corridor Flight 01",
+      "type": "AIRCRAFT",
+      "owner": "SIM",
+      "route": "air-cdg-dubai",
+      "progress": 0.46,
+      "speedKph": 880,
+      "status": "MOVING",
+      "loop": true,
+      "icon": "./src/assets/icons/militaire/avion_militaire.png"
+    },
+    {
+      "id": "truck-001",
+      "name": "Logistics Convoy 01",
+      "type": "TRUCK",
+      "owner": "FR",
+      "route": "road-lyon-mrs",
+      "progress": 0.31,
+      "speedKph": 72,
+      "status": "MOVING",
+      "loop": true,
+      "icon": "./src/assets/icons/civil/camion_logistique.png"
+    },
+    {
+      "id": "drone-001",
+      "name": "Recon Drone 01",
+      "type": "DRONE",
+      "owner": "FR",
+      "route": "mil-airbase-cdg",
+      "progress": 0.66,
+      "speedKph": 210,
+      "status": "MOVING",
+      "loop": true,
+      "icon": "./src/assets/icons/militaire/drone.png"
+    },
+    {
+      "id": "sub-001",
+      "name": "Submarine Patrol 01",
+      "type": "SUBMARINE",
+      "owner": "FR",
+      "route": "naval-toulon-mrs",
+      "progress": 0.52,
+      "speedKph": 32,
+      "status": "MOVING",
+      "loop": true,
+      "icon": "./src/assets/icons/militaire/sous_marin.png"
+    }
+  ]
+}

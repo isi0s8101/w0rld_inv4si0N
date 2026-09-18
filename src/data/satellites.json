@@ -1,0 +1,17 @@
+[
+  {"id":"US-MIL-01","name":"ORION-DEF","type":"MILITARY","owner":"UNITED STATES","lat":18,"lon":-102,"inclination":32,"phase":0.10},
+  {"id":"US-CIV-01","name":"LANDSAT-NEXT","type":"CIVIL","owner":"UNITED STATES","lat":28,"lon":-72,"inclination":18,"phase":1.35},
+  {"id":"CN-MIL-01","name":"YAOGAN-GUARD","type":"MILITARY","owner":"CHINA","lat":20,"lon":112,"inclination":36,"phase":2.20},
+  {"id":"CN-CIV-01","name":"FENGYUN-LINK","type":"CIVIL","owner":"CHINA","lat":35,"lon":84,"inclination":22,"phase":3.05},
+  {"id":"RU-MIL-01","name":"KOSMOS-WATCH","type":"MILITARY","owner":"RUSSIA","lat":54,"lon":38,"inclination":64,"phase":4.10},
+  {"id":"RU-CIV-01","name":"RESURS-EARTH","type":"CIVIL","owner":"RUSSIA","lat":48,"lon":62,"inclination":52,"phase":5.25},
+  {"id":"IN-MIL-01","name":"EMISAT-GUARD","type":"MILITARY","owner":"INDIA","lat":10,"lon":78,"inclination":42,"phase":0.82},
+  {"id":"IN-CIV-01","name":"EOS-OBSERVE","type":"CIVIL","owner":"INDIA","lat":8,"lon":96,"inclination":28,"phase":2.72},
+  {"id":"EU-MIL-01","name":"GALILEO-SEC","type":"MILITARY","owner":"EUROPEAN UNION","lat":44,"lon":12,"inclination":56,"phase":1.92},
+  {"id":"EU-CIV-01","name":"COPERNICUS-01","type":"CIVIL","owner":"EUROPEAN UNION","lat":52,"lon":-8,"inclination":34,"phase":4.62},
+  {"id":"INT-01","name":"ISS-NET","type":"INTERNATIONAL","owner":"INTERNATIONAL","lat":12,"lon":-20,"inclination":51.6,"phase":0.44},
+  {"id":"INT-02","name":"WEATHER-GLOBAL","type":"INTERNATIONAL","owner":"INTERNATIONAL","lat":-18,"lon":35,"inclination":8,"phase":1.74},
+  {"id":"INT-03","name":"OCEAN-WATCH","type":"INTERNATIONAL","owner":"INTERNATIONAL","lat":-42,"lon":-125,"inclination":66,"phase":2.94},
+  {"id":"INT-04","name":"CLIMATE-LINK","type":"INTERNATIONAL","owner":"INTERNATIONAL","lat":58,"lon":145,"inclination":72,"phase":4.18},
+  {"id":"INT-05","name":"DEEP-SPACE-RELAY","type":"INTERNATIONAL","owner":"INTERNATIONAL","lat":-4,"lon":-62,"inclination":24,"phase":5.48}
+]

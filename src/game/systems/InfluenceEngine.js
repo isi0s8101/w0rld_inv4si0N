@@ -1,0 +1,6 @@
+const clamp=(v,min=0,max=100)=>Math.max(min,Math.min(max,v));
+export class InfluenceEngine {
+  constructor(){this.byCountry=new Map();}
+  update(states,relations,{blocs=null,agreements=null}={}){this.byCountry.clear();for(const s of states.values()){const edges=relations.outgoing(s.code);const trade=edges.length?edges.reduce((a,e)=>a+(e.trade||0),0)/edges.length:0;const diplomacy=edges.length?edges.reduce((a,e)=>a+(e.diplomaticRelation||0),0)/edges.length:0;const alliances=blocs?.getBlocFor?.(s.code)?75:edges.length?edges.reduce((a,e)=>a+(e.alliance||0),0)/edges.length:0;const economy=s.metrics.economy.current,military=s.metrics.militaryReadiness.current,energy=s.derivedSystems?.energy?.energySecurity??s.metrics.energy.current,technology=s.metrics.technology.current;const aid=(s.policy?.adaptation?.aid||0)*3;const value=clamp(trade*.14+alliances*.14+economy*.19+military*.13+energy*.09+technology*.13+diplomacy*.14+Math.min(8,aid));const row={value,components:{trade,alliances,economy,militaryPresence:military,energy,technology,diplomacy,aid:Math.min(100,aid*10)},dataClass:'DERIVED_SIMULATION'};this.byCountry.set(s.code,row);s.influenceV1=row;s.metrics.diplomaticInfluence.baseline=clamp(s.metrics.diplomaticInfluence.baseline*.9+value*.1);}return this.byCountry;}
+  get(code){return this.byCountry.get(code)||null;}
+}

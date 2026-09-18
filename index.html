@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#061018">
+  <meta name="description" content="World Invasion — V1.3.1 UI Readability: interface redimensionnée, typographie lisible et panneaux adaptatifs.">
+  <title>World Invasion — V1.3.1 UI Readability</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="cyber-background" data-quality="HIGH">
+    <div class="cyber-ambient" aria-hidden="true"></div><div class="cyber-grid" aria-hidden="true"></div>
+    <div class="cyber-frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <img class="static-world" src="./src/assets/world-mask-v1.png" alt="" aria-hidden="true">
+    <div class="scanlines" aria-hidden="true"></div><div class="vignette" aria-hidden="true"></div>
+  </div>
+  <div id="wi-shell" class="wi-shell" aria-label="Interface stratégique World Invasion">
+    <header class="wi-top-hud wi-panel-edge">
+      <div class="wi-brand"><span class="wi-brand-mark">WI</span><div><strong>WORLD INVASION</strong><small>STRATEGIC INTERFACE</small></div></div>
+      <div class="wi-time"><div><span id="wi-year">YEAR 01</span><b id="wi-day">DAY 001</b></div><div class="wi-speed" role="group" aria-label="Vitesse de simulation"><button type="button" data-wi-speed="0" aria-pressed="false">Ⅱ</button><button type="button" data-wi-speed="1" class="is-active" aria-pressed="true">×1</button><button type="button" data-wi-speed="2" aria-pressed="false">×2</button><button type="button" data-wi-speed="5" aria-pressed="false">×5</button><button type="button" data-wi-speed="10" aria-pressed="false">×10</button><button type="button" data-wi-speed="50" aria-pressed="false">×50</button></div></div>
+      <div class="wi-global"><div><span>HUMAN AWARENESS</span><b id="wi-awareness">—</b></div><div><span>ANALYSIS</span><b>2 / 2</b></div><p><i></i><span>WORLD ENGINE</span><b>LIVE</b></p></div>
+    </header>
+    <aside class="wi-left wi-panel-edge">
+      <section><p class="wi-section-title">NAVIGATOR</p><nav class="wi-view-nav" aria-label="Niveau géographique">
+        <button type="button" data-wi-view="GLOBE" class="is-active"><em>◎</em><span><b>ORBITAL</b><small>Globe view</small></span><i>01</i></button>
+        <button type="button" data-wi-view="WORLD"><em>◇</em><span><b>WORLD</b><small>Global map</small></span><i>02</i></button>
+        <button type="button" data-wi-view="COUNTRY"><em>⌖</em><span><b>TERRITORY</b><small>Selected country</small></span><i>03</i></button>
+      </nav></section>
+      <section class="wi-layers"><p class="wi-section-title">STRATEGIC LAYERS</p>
+        <button type="button" data-wi-layer="GLOBAL" class="is-active"><i></i><span>Global flows</span><b>ALL</b></button><button type="button" data-wi-layer="TRADE"><i></i><span>Trade routes</span><b>TRD</b></button><button type="button" data-wi-layer="ENERGY"><i></i><span>Energy network</span><b>NRG</b></button><button type="button" data-wi-layer="DATA"><i></i><span>Data network</span><b>DAT</b></button><button type="button" data-wi-layer="AIR"><i></i><span>Air corridors</span><b>AIR</b></button><button type="button" data-wi-layer="SEA"><i></i><span>Sea corridors</span><b>SEA</b></button>
+      </section>
+      <section class="wi-layers wi-infra-layers"><p class="wi-section-title">INFRASTRUCTURE</p>
+        <button type="button" data-wi-infra-layer="CAPITALS"><i></i><span>Capitals</span><b>CAP</b></button>
+        <button type="button" data-wi-infra-layer="CITIES"><i></i><span>Cities</span><b>CTY</b></button>
+        <button type="button" data-wi-infra-layer="PORTS"><i></i><span>Ports</span><b>PRT</b></button>
+        <button type="button" data-wi-infra-layer="AVIATION"><i></i><span>Aviation</span><b>AIR</b></button>
+        <button type="button" data-wi-infra-layer="MARITIME"><i></i><span>Maritime</span><b>SEA</b></button>
+        <button type="button" data-wi-infra-layer="MILITARY"><i></i><span>Military</span><b>MIL</b></button>
+        <button type="button" data-wi-infra-layer="INDUSTRY"><i></i><span>Industry</span><b>IND</b></button>
+        <button type="button" data-wi-infra-layer="ENERGY"><i></i><span>Energy</span><b>NRG</b></button>
+        <button type="button" data-wi-infra-layer="LOGISTICS"><i></i><span>Logistics</span><b>LOG</b></button>
+        <button type="button" data-wi-infra-layer="DIGITAL"><i></i><span>Digital</span><b>DAT</b></button>
+        <button type="button" data-wi-infra-layer="SPACE"><i></i><span>Space</span><b>SPC</b></button>
+        <button type="button" data-wi-infra-layer="HEALTH"><i></i><span>Health</span><b>MED</b></button>
+        <button type="button" data-wi-infra-layer="RAIL"><i></i><span>Rail</span><b>RAI</b></button>
+        <button type="button" data-wi-infra-layer="ROAD"><i></i><span>Road</span><b>RD</b></button>
+        <button type="button" data-wi-infra-layer="CHOKEPOINTS"><i></i><span>Chokepoints</span><b>CHK</b></button>
+        <button type="button" data-wi-infra-layer="TRAFFIC"><i></i><span>Vehicles</span><b>TRF</b></button>
+      </section>
+      <section class="wi-layer-presets"><p class="wi-section-title">LAYER PRESETS</p><div class="wi-preset-grid">
+        <button type="button" data-wi-preset="ECONOMY">ECONOMY</button><button type="button" data-wi-preset="LOGISTICS">LOGISTICS</button><button type="button" data-wi-preset="ENERGY">ENERGY</button><button type="button" data-wi-preset="MILITARY">MILITARY</button><button type="button" data-wi-preset="DIGITAL">DIGITAL</button><button type="button" data-wi-preset="INTELLIGENCE">INTEL</button><button type="button" data-wi-preset="CRISIS">CRISIS</button><button type="button" data-wi-preset="TRAFFIC">TRAFFIC</button><button type="button" data-wi-preset="ALL">ALL</button>
+      </div><button type="button" class="wi-auto-layers is-active" data-wi-auto-layers="true" aria-pressed="true">AUTO LAYERS <b>ON</b></button></section>
+      <section class="wi-knowledge"><p class="wi-section-title">KNOWLEDGE</p><div><span>GLOBAL</span><b>08%</b></div><progress value="8" max="100">8%</progress><div><span>ORBITAL</span><b>34%</b></div><progress value="34" max="100">34%</progress><div><span>SURFACE</span><b>04%</b></div><progress value="4" max="100">4%</progress></section>
+    </aside>
+    <section class="wi-scene-label" aria-live="polite"><span id="wi-scene-kicker">ORBITAL OBSERVATION</span><h1 id="wi-scene-title">EARTH / GLOBAL MODEL</h1><p id="wi-scene-meta">REAL WORLD BASELINE · LIVE SIMULATION</p></section>
+    <aside class="wi-context" aria-live="polite">
+      <div class="wi-context-status"><span id="wi-context-type">WORLD OBJECT</span><b id="wi-context-state">TRACKING</b></div>
+      <div class="wi-context-head"><span id="wi-context-icon">EARTH</span><div><h2 id="wi-context-title">PLANETARY MODEL</h2><p id="wi-context-subtitle">V1.3 ANALYSIS LAYER</p></div></div>
+      <div id="wi-context-data" class="wi-context-data"></div><button id="wi-primary-action" class="wi-primary-action" type="button"><span>DEPLOY WORLD MAP</span><small>LEVEL 02</small></button>
+    </aside>
+    <footer class="wi-bottom wi-panel-edge"><div><span>ACTIVE OBJECTIVE</span><b id="wi-objective">MAP THE GLOBAL NETWORK</b></div><nav aria-label="Modes d’action"><button type="button" class="is-active" data-wi-action="observe"><span>01</span>OBSERVE</button><button type="button" data-wi-action="analyze"><span>02</span>ANALYZE</button><button type="button" disabled><span>03</span>RESEARCH</button><button type="button" disabled><span>04</span>INFLUENCE</button></nav><p><span>MODE <b id="wi-mode">REAL WORLD</b></span><span>ENGINE <b>VALID</b></span></p></footer>
+    <div class="wi-map-controls" aria-label="Navigation cartographique">
+      <button type="button" data-wi-map="back" title="Retour (Alt+←)">←</button><button type="button" data-wi-map="forward" title="Suivant (Alt+→)">→</button>
+      <button type="button" data-wi-map="zoom-out" title="Dézoomer">−</button><button type="button" data-wi-map="zoom-in" title="Zoomer">+</button>
+      <button type="button" data-wi-map="fit" title="Cadrer la sélection">FIT</button><button type="button" data-wi-map="focus" title="Focus">FOCUS</button><button type="button" data-wi-map="follow" title="Suivre">FOLLOW</button><button type="button" data-wi-map="reset" title="Réinitialiser la carte (Home)">RESET</button>
+    </div>
+    <div id="wi-toast" class="wi-toast" role="status" aria-live="polite"></div>
+  </div>
+  <nav id="cyber-a11y-nav" class="sr-only-focusable" aria-label="Navigation géographique alternative"><button type="button" data-action="globe">Vue globe</button><button type="button" data-action="world">Vue monde</button><label>Choisir un pays<select data-country-select><option value="">Aucun pays sélectionné</option></select></label><button type="button" data-action="clear">Effacer la sélection</button></nav>
+  <main class="scene-track" aria-hidden="true"><section data-scene="HERO"></section><section data-scene="GLOBAL"></section><section data-scene="THREAT_INTELLIGENCE"></section><section data-scene="MONITORING"></section><section data-scene="OUTRO"></section></main>
+  <noscript><style>.static-world{opacity:.3!important}</style></noscript><script type="module" src="./src/main.js"></script>
+</body>
+</html>

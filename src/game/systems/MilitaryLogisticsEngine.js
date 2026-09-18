@@ -1,0 +1,6 @@
+const clamp=(v,min=0,max=100)=>Math.max(min,Math.min(max,v));
+export class MilitaryLogisticsEngine {
+  constructor({ graph, runtime }={}){this.graph=graph;this.runtime=runtime;this.byCountry=new Map();}
+  update(states){this.byCountry.clear();for(const state of states.values()){const nodes=this.graph.forCountry(state.code).filter(n=>['AIRBASE','NAVAL_BASE','MILITARY_BASE','ARSENAL','COMMAND_CENTER','RADAR'].includes(n.type));let fuel=0,ammo=0,equip=0,maint=0;if(nodes.length){for(const n of nodes){const rt=this.runtime.get(n.id);const f=rt?.stocks?.fuel,a=rt?.stocks?.militarySupplies;fuel+=f?.capacity?f.current/f.capacity:0;ammo+=a?.capacity?a.current/a.capacity:0;equip+=this.runtime.statusFactor(n.id);maint+=n.health/100;}fuel/=nodes.length;ammo/=nodes.length;equip/=nodes.length;maint/=nodes.length;}else fuel=ammo=equip=maint=.5;const readiness=clamp((fuel*.26+ammo*.28+equip*.25+maint*.21)*100);const row={fuelSupply:fuel*100,ammunitionSupply:ammo*100,equipmentSupply:equip*100,maintenanceSupply:maint*100,readiness,operationalCapacity:readiness*.92,dataClass:'DERIVED_SIMULATION'};this.byCountry.set(state.code,row);state.militaryLogistics=row;if(state.metrics?.militaryReadiness)state.metrics.militaryReadiness.baseline=clamp(state.metrics.militaryReadiness.baseline*.9+readiness*.1);}return this.byCountry;}
+  get(code){return this.byCountry.get(code)||null;}
+}

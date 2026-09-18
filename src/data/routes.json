@@ -1,0 +1,20 @@
+[
+  {"id":"r-ny-paris","from":"ny-core","to":"paris-core","weight":1.0},
+  {"id":"r-paris-tokyo","from":"paris-core","to":"tokyo-core","weight":0.9},
+  {"id":"r-tokyo-singapore","from":"tokyo-core","to":"singapore-core","weight":0.8},
+  {"id":"r-london-ny","from":"london-gateway","to":"ny-core","weight":0.9},
+  {"id":"r-dubai-mumbai","from":"dubai-gateway","to":"mumbai-gateway","weight":0.7},
+  {"id":"r-singapore-sydney","from":"singapore-core","to":"sydney-core","weight":0.8},
+  {"id":"r-sp-ny","from":"sp-core","to":"ny-core","weight":0.7},
+  {"id":"r-paris-berlin","from":"paris-core","to":"berlin-core","weight":0.8},
+  {"id":"r-berlin-frankfurt","from":"berlin-core","to":"frankfurt-dc","weight":0.7},
+  {"id":"r-paris-lyon","from":"paris-core","to":"lyon-regional","weight":0.7},
+  {"id":"r-lyon-marseille","from":"lyon-regional","to":"marseille-edge","weight":0.6},
+  {"id":"r-berlin-munich","from":"berlin-core","to":"munich-regional","weight":0.6},
+  {"id":"r-amsterdam-paris","from":"ams-dc","to":"paris-core","weight":0.7},
+  {"id":"r-zurich-frankfurt","from":"zurich-dc","to":"frankfurt-dc","weight":0.6},
+  {"id":"r-seoul-tokyo","from":"seoul-dc","to":"tokyo-core","weight":0.7},
+  {"id":"r-hk-singapore","from":"hk-gateway","to":"singapore-core","weight":0.7},
+  {"id":"r-joburg-dubai","from":"joburg-gateway","to":"dubai-gateway","weight":0.6},
+  {"id":"r-reykjavik-london","from":"reykjavik-monitor","to":"london-gateway","weight":0.5}
+]

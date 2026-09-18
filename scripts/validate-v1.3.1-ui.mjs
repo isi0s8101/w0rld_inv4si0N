@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const must=(rel,terms)=>{const p=path.join(ROOT,rel); if(!fs.existsSync(p)) throw new Error(`missing ${rel}`); const s=fs.readFileSync(p,'utf8'); for(const term of terms) if(!s.includes(term)) throw new Error(`${rel}: missing ${term}`);};
+must('src/ui/UIReadabilityManager.js',['UIReadabilityManager','MAP FIRST','HIGH CONTRAST','REDUCE VISUAL NOISE','worldinvasion:ui-settings']);
+must('style.css',['World Invasion V1.3.1','--wi-font-xs','--wi-control-h','--wi-right-w','wi-ui-settings-panel','data-high-contrast','prefers-reduced-motion']);
+must('src/map/LabelManager.js',['strokeText','--wi-map-label-scale','Math.max(11']);
+must('index.html',['V1.3.1 UI Readability','viewport-fit=cover']);
+console.log('VALIDATION_V1_3_1_UI=OK');

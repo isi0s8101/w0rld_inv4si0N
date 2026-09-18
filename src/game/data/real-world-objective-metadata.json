@@ -1,0 +1,3511 @@
+{
+  "schemaVersion": 2,
+  "retrievedAt": "2026-09-13",
+  "source": {
+    "id": "countryInfoSnapshot",
+    "name": "CountryInfo 0.1.2 local snapshot",
+    "referenceDate": null,
+    "note": "Snapshot local préexistant du projet. La date de référence de la population n’est pas fournie ; elle est donc exposée comme snapshot non daté et jamais comme population courante."
+  },
+  "countries": {
+    "FJ": {
+      "iso3": "FJI",
+      "name": "Fiji",
+      "capital": "Suva",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "areaKm2": 18272,
+      "populationSnapshot": 859178,
+      "center": [
+        177.976,
+        -17.938
+      ],
+      "ianaTimezones": [
+        "Pacific/Fiji"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TZ": {
+      "iso3": "TZA",
+      "name": "Tanzania",
+      "capital": "Dodoma",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 945087,
+      "populationSnapshot": 47421786,
+      "center": [
+        34.142,
+        -6.208
+      ],
+      "ianaTimezones": [
+        "Africa/Dar_es_Salaam"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "EH": {
+      "iso3": "ESH",
+      "name": "W. Sahara",
+      "capital": "El Aaiún",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "areaKm2": 266000,
+      "populationSnapshot": 586000,
+      "center": [
+        -12.572,
+        24.231
+      ],
+      "ianaTimezones": [
+        "Africa/El_Aaiun"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CA": {
+      "iso3": "CAN",
+      "name": "Canada",
+      "capital": "Ottawa",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "areaKm2": 9984670,
+      "populationSnapshot": 35540419,
+      "center": [
+        -110.244,
+        56.702
+      ],
+      "ianaTimezones": [
+        "America/St_Johns",
+        "America/Halifax",
+        "America/Glace_Bay",
+        "America/Moncton",
+        "America/Goose_Bay",
+        "America/Blanc-Sablon",
+        "America/Toronto",
+        "America/Iqaluit",
+        "America/Atikokan",
+        "America/Winnipeg",
+        "America/Resolute",
+        "America/Rankin_Inlet",
+        "America/Regina",
+        "America/Swift_Current",
+        "America/Edmonton",
+        "America/Cambridge_Bay",
+        "America/Inuvik",
+        "America/Vancouver",
+        "America/Creston",
+        "America/Dawson_Creek",
+        "America/Fort_Nelson",
+        "America/Whitehorse",
+        "America/Dawson"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "US": {
+      "iso3": "USA",
+      "name": "United States of America",
+      "capital": "Washington D.C.",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "areaKm2": 9629091,
+      "populationSnapshot": 319259000,
+      "center": [
+        -99.315,
+        37.237
+      ],
+      "ianaTimezones": [
+        "America/New_York",
+        "America/Detroit",
+        "America/Kentucky/Louisville",
+        "America/Kentucky/Monticello",
+        "America/Indiana/Indianapolis",
+        "America/Indiana/Vincennes",
+        "America/Indiana/Winamac",
+        "America/Indiana/Marengo",
+        "America/Indiana/Petersburg",
+        "America/Indiana/Vevay",
+        "America/Chicago",
+        "America/Indiana/Tell_City",
+        "America/Indiana/Knox",
+        "America/Menominee",
+        "America/North_Dakota/Center",
+        "America/North_Dakota/New_Salem",
+        "America/North_Dakota/Beulah",
+        "America/Denver",
+        "America/Boise",
+        "America/Phoenix",
+        "America/Los_Angeles",
+        "America/Anchorage",
+        "America/Juneau",
+        "America/Sitka",
+        "America/Metlakatla",
+        "America/Yakutat",
+        "America/Nome",
+        "America/Adak",
+        "Pacific/Honolulu"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "KZ": {
+      "iso3": "KAZ",
+      "name": "Kazakhstan",
+      "capital": "Astana",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "areaKm2": 2724900,
+      "populationSnapshot": 17377800,
+      "center": [
+        66.312,
+        48.069
+      ],
+      "ianaTimezones": [
+        "Asia/Almaty",
+        "Asia/Qyzylorda",
+        "Asia/Qostanay",
+        "Asia/Aqtobe",
+        "Asia/Aqtau",
+        "Asia/Atyrau",
+        "Asia/Oral"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "UZ": {
+      "iso3": "UZB",
+      "name": "Uzbekistan",
+      "capital": "Tashkent",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "areaKm2": 447400,
+      "populationSnapshot": 30492800,
+      "center": [
+        63.443,
+        41.353
+      ],
+      "ianaTimezones": [
+        "Asia/Samarkand",
+        "Asia/Tashkent"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PG": {
+      "iso3": "PNG",
+      "name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "areaKm2": 462840,
+      "populationSnapshot": 7398500,
+      "center": [
+        144.226,
+        -6.668
+      ],
+      "ianaTimezones": [
+        "Pacific/Port_Moresby",
+        "Pacific/Bougainville"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ID": {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 1904569,
+      "populationSnapshot": 252164800,
+      "center": [
+        113.269,
+        -0.179
+      ],
+      "ianaTimezones": [
+        "Asia/Jakarta",
+        "Asia/Pontianak",
+        "Asia/Makassar",
+        "Asia/Jayapura"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AR": {
+      "iso3": "ARG",
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 2780400,
+      "populationSnapshot": 42669500,
+      "center": [
+        -64.081,
+        -37.239
+      ],
+      "ianaTimezones": [
+        "America/Argentina/Buenos_Aires",
+        "America/Argentina/Cordoba",
+        "America/Argentina/Salta",
+        "America/Argentina/Jujuy",
+        "America/Argentina/Tucuman",
+        "America/Argentina/Catamarca",
+        "America/Argentina/La_Rioja",
+        "America/Argentina/San_Juan",
+        "America/Argentina/Mendoza",
+        "America/Argentina/San_Luis",
+        "America/Argentina/Rio_Gallegos",
+        "America/Argentina/Ushuaia"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CL": {
+      "iso3": "CHL",
+      "name": "Chile",
+      "capital": "Santiago",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 756102,
+      "populationSnapshot": 17819054,
+      "center": [
+        -69.838,
+        -54.016
+      ],
+      "ianaTimezones": [
+        "America/Santiago",
+        "America/Coyhaique",
+        "America/Punta_Arenas",
+        "Pacific/Easter"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CD": {
+      "iso3": "COD",
+      "name": "Dem. Rep. Congo",
+      "capital": "Kinshasa",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 2344858,
+      "populationSnapshot": 69360000,
+      "center": [
+        22.391,
+        -4.099
+      ],
+      "ianaTimezones": [
+        "Africa/Kinshasa",
+        "Africa/Lubumbashi"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SO": {
+      "iso3": "SOM",
+      "name": "Somalia",
+      "capital": "Mogadishu",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 637657,
+      "populationSnapshot": 10806000,
+      "center": [
+        46.795,
+        5.171
+      ],
+      "ianaTimezones": [
+        "Africa/Mogadishu"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "KE": {
+      "iso3": "KEN",
+      "name": "Kenya",
+      "capital": "Nairobi",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 580367,
+      "populationSnapshot": 41800000,
+      "center": [
+        37.513,
+        0.312
+      ],
+      "ianaTimezones": [
+        "Africa/Nairobi"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SD": {
+      "iso3": "SDN",
+      "name": "Sudan",
+      "capital": "Khartoum",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "areaKm2": 1886068,
+      "populationSnapshot": 37289406,
+      "center": [
+        29.616,
+        15.278
+      ],
+      "ianaTimezones": [
+        "Africa/Khartoum"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TD": {
+      "iso3": "TCD",
+      "name": "Chad",
+      "capital": "N'Djamena",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 1284000,
+      "populationSnapshot": 13211000,
+      "center": [
+        18.307,
+        15.278
+      ],
+      "ianaTimezones": [
+        "Africa/Ndjamena"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "HT": {
+      "iso3": "HTI",
+      "name": "Haiti",
+      "capital": "Port-au-Prince",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "areaKm2": 27750,
+      "populationSnapshot": 10745665,
+      "center": [
+        -72.147,
+        18.944
+      ],
+      "ianaTimezones": [
+        "America/Port-au-Prince"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "DO": {
+      "iso3": "DOM",
+      "name": "Dominican Rep.",
+      "capital": "Santo Domingo",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "areaKm2": 48671,
+      "populationSnapshot": 10378267,
+      "center": [
+        -70.13,
+        18.701
+      ],
+      "ianaTimezones": [
+        "America/Santo_Domingo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "RU": {
+      "iso3": "RUS",
+      "name": "Russia",
+      "capital": "Moscow",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 17124442,
+      "populationSnapshot": 146233000,
+      "center": [
+        88.597,
+        59.406
+      ],
+      "ianaTimezones": [
+        "Europe/Kaliningrad",
+        "Europe/Moscow",
+        "Europe/Kirov",
+        "Europe/Volgograd",
+        "Europe/Astrakhan",
+        "Europe/Saratov",
+        "Europe/Ulyanovsk",
+        "Europe/Samara",
+        "Asia/Yekaterinburg",
+        "Asia/Omsk",
+        "Asia/Novosibirsk",
+        "Asia/Barnaul",
+        "Asia/Tomsk",
+        "Asia/Novokuznetsk",
+        "Asia/Krasnoyarsk",
+        "Asia/Irkutsk",
+        "Asia/Chita",
+        "Asia/Yakutsk",
+        "Asia/Khandyga",
+        "Asia/Vladivostok",
+        "Asia/Ust-Nera",
+        "Asia/Magadan",
+        "Asia/Sakhalin",
+        "Asia/Srednekolymsk",
+        "Asia/Kamchatka",
+        "Asia/Anadyr"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BS": {
+      "iso3": "BHS",
+      "name": "Bahamas",
+      "capital": "Nassau",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "areaKm2": 13943,
+      "populationSnapshot": 319031,
+      "center": [
+        -78.396,
+        26.685
+      ],
+      "ianaTimezones": [
+        "America/Nassau"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "FK": {
+      "iso3": "FLK",
+      "name": "Falkland Is.",
+      "capital": "Stanley",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 12173,
+      "populationSnapshot": 3000,
+      "center": [
+        -59.389,
+        -51.7
+      ],
+      "ianaTimezones": [
+        "Atlantic/Stanley"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NO": {
+      "iso3": "NOR",
+      "name": "Norway",
+      "capital": "Oslo",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 323802,
+      "populationSnapshot": 5156450,
+      "center": [
+        22.682,
+        79.958
+      ],
+      "ianaTimezones": [
+        "Europe/Oslo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GL": {
+      "iso3": "GRL",
+      "name": "Greenland",
+      "capital": "Nuuk",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "areaKm2": 2166086,
+      "populationSnapshot": 56295,
+      "center": [
+        -39.283,
+        71.867
+      ],
+      "ianaTimezones": [
+        "America/Nuuk",
+        "America/Danmarkshavn",
+        "America/Scoresbysund",
+        "America/Thule"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TF": {
+      "iso3": "ATF",
+      "name": "Fr. S. Antarctic Lands",
+      "capital": "Port-aux-Français",
+      "region": "Seven seas (open ocean)",
+      "subregion": null,
+      "areaKm2": 7747,
+      "populationSnapshot": 140,
+      "center": [
+        69.647,
+        -49.154
+      ],
+      "ianaTimezones": [
+        "Indian/Kerguelen"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TL": {
+      "iso3": "TLS",
+      "name": "Timor-Leste",
+      "capital": "Dili",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 14874,
+      "populationSnapshot": 1172390,
+      "center": [
+        125.863,
+        -8.781
+      ],
+      "ianaTimezones": [
+        "Asia/Dili"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ZA": {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "capital": "Pretoria",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "areaKm2": 1221037,
+      "populationSnapshot": 54002000,
+      "center": [
+        26.148,
+        -28.409
+      ],
+      "ianaTimezones": [
+        "Africa/Johannesburg"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LS": {
+      "iso3": "LSO",
+      "name": "Lesotho",
+      "capital": "Maseru",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "areaKm2": 30355,
+      "populationSnapshot": 2098000,
+      "center": [
+        28.244,
+        -29.501
+      ],
+      "ianaTimezones": [
+        "Africa/Maseru"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MX": {
+      "iso3": "MEX",
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 1964375,
+      "populationSnapshot": 119713203,
+      "center": [
+        -102.25,
+        23.599
+      ],
+      "ianaTimezones": [
+        "America/Mexico_City",
+        "America/Cancun",
+        "America/Merida",
+        "America/Monterrey",
+        "America/Matamoros",
+        "America/Chihuahua",
+        "America/Ciudad_Juarez",
+        "America/Ojinaga",
+        "America/Mazatlan",
+        "America/Bahia_Banderas",
+        "America/Hermosillo",
+        "America/Tijuana"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "UY": {
+      "iso3": "URY",
+      "name": "Uruguay",
+      "capital": "Montevideo",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 181034,
+      "populationSnapshot": 3404189,
+      "center": [
+        -55.819,
+        -32.387
+      ],
+      "ianaTimezones": [
+        "America/Montevideo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BR": {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "capital": "Brasília",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 8515767,
+      "populationSnapshot": 203586000,
+      "center": [
+        -49.712,
+        -14.074
+      ],
+      "ianaTimezones": [
+        "America/Noronha",
+        "America/Belem",
+        "America/Fortaleza",
+        "America/Recife",
+        "America/Araguaina",
+        "America/Maceio",
+        "America/Bahia",
+        "America/Sao_Paulo",
+        "America/Campo_Grande",
+        "America/Cuiaba",
+        "America/Santarem",
+        "America/Porto_Velho",
+        "America/Boa_Vista",
+        "America/Manaus",
+        "America/Eirunepe",
+        "America/Rio_Branco"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BO": {
+      "iso3": "BOL",
+      "name": "Bolivia",
+      "capital": "Sucre",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 1098581,
+      "populationSnapshot": 10027254,
+      "center": [
+        -63.639,
+        -16.4
+      ],
+      "ianaTimezones": [
+        "America/La_Paz"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PE": {
+      "iso3": "PER",
+      "name": "Peru",
+      "capital": "Lima",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 1285216,
+      "populationSnapshot": 30814175,
+      "center": [
+        -75.875,
+        -9.248
+      ],
+      "ianaTimezones": [
+        "America/Lima"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CO": {
+      "iso3": "COL",
+      "name": "Colombia",
+      "capital": "Bogotá",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 1141748,
+      "populationSnapshot": 47907800,
+      "center": [
+        -72.486,
+        3.969
+      ],
+      "ianaTimezones": [
+        "America/Bogota"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PA": {
+      "iso3": "PAN",
+      "name": "Panama",
+      "capital": "Panama City",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 75417,
+      "populationSnapshot": 3713312,
+      "center": [
+        -81.483,
+        8.406
+      ],
+      "ianaTimezones": [
+        "America/Panama"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CR": {
+      "iso3": "CRI",
+      "name": "Costa Rica",
+      "capital": "San José",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 51100,
+      "populationSnapshot": 4713168,
+      "center": [
+        -83.684,
+        9.706
+      ],
+      "ianaTimezones": [
+        "America/Costa_Rica"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NI": {
+      "iso3": "NIC",
+      "name": "Nicaragua",
+      "capital": "Managua",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 130373,
+      "populationSnapshot": 6134270,
+      "center": [
+        -85.574,
+        12.89
+      ],
+      "ianaTimezones": [
+        "America/Managua"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "HN": {
+      "iso3": "HND",
+      "name": "Honduras",
+      "capital": "Tegucigalpa",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 112492,
+      "populationSnapshot": 8725111,
+      "center": [
+        -87.228,
+        14.488
+      ],
+      "ianaTimezones": [
+        "America/Tegucigalpa"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SV": {
+      "iso3": "SLV",
+      "name": "El Salvador",
+      "capital": "San Salvador",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 21041,
+      "populationSnapshot": 6401240,
+      "center": [
+        -88.92,
+        13.815
+      ],
+      "ianaTimezones": [
+        "America/El_Salvador"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GT": {
+      "iso3": "GTM",
+      "name": "Guatemala",
+      "capital": "Guatemala City",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 108889,
+      "populationSnapshot": 15806675,
+      "center": [
+        -90.334,
+        15.792
+      ],
+      "ianaTimezones": [
+        "America/Guatemala"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BZ": {
+      "iso3": "BLZ",
+      "name": "Belize",
+      "capital": "Belmopan",
+      "region": "Americas",
+      "subregion": "Central America",
+      "areaKm2": 22966,
+      "populationSnapshot": 349728,
+      "center": [
+        -88.699,
+        17.311
+      ],
+      "ianaTimezones": [
+        "America/Belize"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "VE": {
+      "iso3": "VEN",
+      "name": "Venezuela",
+      "capital": "Caracas",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 916445,
+      "populationSnapshot": 30206307,
+      "center": [
+        -65.426,
+        6.482
+      ],
+      "ianaTimezones": [
+        "America/Caracas"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GY": {
+      "iso3": "GUY",
+      "name": "Guyana",
+      "capital": "Georgetown",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 214969,
+      "populationSnapshot": 784894,
+      "center": [
+        -58.845,
+        4.913
+      ],
+      "ianaTimezones": [
+        "America/Guyana"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SR": {
+      "iso3": "SUR",
+      "name": "Suriname",
+      "capital": "Paramaribo",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 163820,
+      "populationSnapshot": 534189,
+      "center": [
+        -56.032,
+        3.84
+      ],
+      "ianaTimezones": [
+        "America/Paramaribo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "FR": {
+      "iso3": "FRA",
+      "name": "France",
+      "capital": "Paris",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "areaKm2": 640679,
+      "populationSnapshot": 66078000,
+      "center": [
+        2.099,
+        46.895
+      ],
+      "ianaTimezones": [
+        "Europe/Paris"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "EC": {
+      "iso3": "ECU",
+      "name": "Ecuador",
+      "capital": "Quito",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 276841,
+      "populationSnapshot": 15888900,
+      "center": [
+        -78.279,
+        -1.763
+      ],
+      "ianaTimezones": [
+        "America/Guayaquil",
+        "Pacific/Galapagos"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PR": {
+      "iso3": "PRI",
+      "name": "Puerto Rico",
+      "capital": "San Juan",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "areaKm2": 8870,
+      "populationSnapshot": 3615086,
+      "center": [
+        -66.445,
+        18.301
+      ],
+      "ianaTimezones": [
+        "America/Puerto_Rico"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "JM": {
+      "iso3": "JAM",
+      "name": "Jamaica",
+      "capital": "Kingston",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "areaKm2": 10991,
+      "populationSnapshot": 2717991,
+      "center": [
+        -77.152,
+        18.024
+      ],
+      "ianaTimezones": [
+        "America/Jamaica"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CU": {
+      "iso3": "CUB",
+      "name": "Cuba",
+      "capital": "Havana",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "areaKm2": 109884,
+      "populationSnapshot": 11210064,
+      "center": [
+        -77.705,
+        21.39
+      ],
+      "ianaTimezones": [
+        "America/Havana"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ZW": {
+      "iso3": "ZWE",
+      "name": "Zimbabwe",
+      "capital": "Harare",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 390757,
+      "populationSnapshot": 13061239,
+      "center": [
+        29.322,
+        -19.004
+      ],
+      "ianaTimezones": [
+        "Africa/Harare"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BW": {
+      "iso3": "BWA",
+      "name": "Botswana",
+      "capital": "Gaborone",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "areaKm2": 582000,
+      "populationSnapshot": 2024904,
+      "center": [
+        24.31,
+        -22.46
+      ],
+      "ianaTimezones": [
+        "Africa/Gaborone"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NA": {
+      "iso3": "NAM",
+      "name": "Namibia",
+      "capital": "Windhoek",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "areaKm2": 825615,
+      "populationSnapshot": 2113077,
+      "center": [
+        17.146,
+        -23.255
+      ],
+      "ianaTimezones": [
+        "Africa/Windhoek"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SN": {
+      "iso3": "SEN",
+      "name": "Senegal",
+      "capital": "Dakar",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 196722,
+      "populationSnapshot": 13508715,
+      "center": [
+        -14.729,
+        14.495
+      ],
+      "ianaTimezones": [
+        "Africa/Dakar"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ML": {
+      "iso3": "MLI",
+      "name": "Mali",
+      "capital": "Bamako",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 1240192,
+      "populationSnapshot": 15768000,
+      "center": [
+        -0.701,
+        17.955
+      ],
+      "ianaTimezones": [
+        "Africa/Bamako"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MR": {
+      "iso3": "MRT",
+      "name": "Mauritania",
+      "capital": "Nouakchott",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 1030700,
+      "populationSnapshot": 3545620,
+      "center": [
+        -11.493,
+        21.163
+      ],
+      "ianaTimezones": [
+        "Africa/Nouakchott"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BJ": {
+      "iso3": "BEN",
+      "name": "Benin",
+      "capital": "Porto-Novo",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 112622,
+      "populationSnapshot": 9988068,
+      "center": [
+        2.285,
+        9.236
+      ],
+      "ianaTimezones": [
+        "Africa/Porto-Novo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NE": {
+      "iso3": "NER",
+      "name": "Niger",
+      "capital": "Niamey",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 1267000,
+      "populationSnapshot": 17138707,
+      "center": [
+        9.774,
+        17.39
+      ],
+      "ianaTimezones": [
+        "Africa/Niamey"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NG": {
+      "iso3": "NGA",
+      "name": "Nigeria",
+      "capital": "Abuja",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 923768,
+      "populationSnapshot": 178517000,
+      "center": [
+        7.832,
+        8.928
+      ],
+      "ianaTimezones": [
+        "Africa/Lagos"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CM": {
+      "iso3": "CMR",
+      "name": "Cameroon",
+      "capital": "Yaoundé",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 475442,
+      "populationSnapshot": 20386799,
+      "center": [
+        13.492,
+        7.226
+      ],
+      "ianaTimezones": [
+        "Africa/Douala"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TG": {
+      "iso3": "TGO",
+      "name": "Togo",
+      "capital": "Lomé",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 56785,
+      "populationSnapshot": 6993000,
+      "center": [
+        1.119,
+        8.495
+      ],
+      "ianaTimezones": [
+        "Africa/Lome"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GH": {
+      "iso3": "GHA",
+      "name": "Ghana",
+      "capital": "Accra",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 238533,
+      "populationSnapshot": 27043093,
+      "center": [
+        -1.087,
+        7.816
+      ],
+      "ianaTimezones": [
+        "Africa/Accra"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CI": {
+      "iso3": "CIV",
+      "name": "Côte d'Ivoire",
+      "capital": "Yamoussoukro",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 322463,
+      "populationSnapshot": 23821000,
+      "center": [
+        -5.683,
+        7.541
+      ],
+      "ianaTimezones": [
+        "Africa/Abidjan"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GN": {
+      "iso3": "GIN",
+      "name": "Guinea",
+      "capital": "Conakry",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 245857,
+      "populationSnapshot": 10628972,
+      "center": [
+        -9.658,
+        9.951
+      ],
+      "ianaTimezones": [
+        "Africa/Conakry"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GW": {
+      "iso3": "GNB",
+      "name": "Guinea-Bissau",
+      "capital": "Bissau",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 36125,
+      "populationSnapshot": 1746000,
+      "center": [
+        -15.037,
+        11.885
+      ],
+      "ianaTimezones": [
+        "Africa/Bissau"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LR": {
+      "iso3": "LBR",
+      "name": "Liberia",
+      "capital": "Monrovia",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 111369,
+      "populationSnapshot": 4397000,
+      "center": [
+        -9.71,
+        6.33
+      ],
+      "ianaTimezones": [
+        "Africa/Monrovia"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SL": {
+      "iso3": "SLE",
+      "name": "Sierra Leone",
+      "capital": "Freetown",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 71740,
+      "populationSnapshot": 6205000,
+      "center": [
+        -11.844,
+        8.561
+      ],
+      "ianaTimezones": [
+        "Africa/Freetown"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BF": {
+      "iso3": "BFA",
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 272967,
+      "populationSnapshot": 17322796,
+      "center": [
+        -1.276,
+        12.241
+      ],
+      "ianaTimezones": [
+        "Africa/Ouagadougou"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CF": {
+      "iso3": "CAF",
+      "name": "Central African Rep.",
+      "capital": "Bangui",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 622984,
+      "populationSnapshot": 4709000,
+      "center": [
+        20.479,
+        6.763
+      ],
+      "ianaTimezones": [
+        "Africa/Bangui"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CG": {
+      "iso3": "COG",
+      "name": "Congo",
+      "capital": "Brazzaville",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 342000,
+      "populationSnapshot": 4559000,
+      "center": [
+        15.944,
+        -0.648
+      ],
+      "ianaTimezones": [
+        "Africa/Brazzaville"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GA": {
+      "iso3": "GAB",
+      "name": "Gabon",
+      "capital": "Libreville",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 267668,
+      "populationSnapshot": 1711000,
+      "center": [
+        11.593,
+        -0.945
+      ],
+      "ianaTimezones": [
+        "Africa/Libreville"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GQ": {
+      "iso3": "GNQ",
+      "name": "Eq. Guinea",
+      "capital": "Malabo",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 28051,
+      "populationSnapshot": 1430000,
+      "center": [
+        10.377,
+        1.711
+      ],
+      "ianaTimezones": [
+        "Africa/Malabo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ZM": {
+      "iso3": "ZMB",
+      "name": "Zambia",
+      "capital": "Lusaka",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 752612,
+      "populationSnapshot": 15023315,
+      "center": [
+        25.37,
+        -13.08
+      ],
+      "ianaTimezones": [
+        "Africa/Lusaka"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MW": {
+      "iso3": "MWI",
+      "name": "Malawi",
+      "capital": "Lilongwe",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 118484,
+      "populationSnapshot": 15805239,
+      "center": [
+        33.668,
+        -13.175
+      ],
+      "ianaTimezones": [
+        "Africa/Blantyre"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MZ": {
+      "iso3": "MOZ",
+      "name": "Mozambique",
+      "capital": "Maputo",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 801590,
+      "populationSnapshot": 25041922,
+      "center": [
+        34.697,
+        -18.319
+      ],
+      "ianaTimezones": [
+        "Africa/Maputo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SZ": {
+      "iso3": "SWZ",
+      "name": "eSwatini",
+      "capital": "Lobamba",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "areaKm2": 17364,
+      "populationSnapshot": 1106189,
+      "center": [
+        31.36,
+        -26.566
+      ],
+      "ianaTimezones": [
+        "Africa/Mbabane"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AO": {
+      "iso3": "AGO",
+      "name": "Angola",
+      "capital": "Luanda",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 1246700,
+      "populationSnapshot": 24383301,
+      "center": [
+        18.81,
+        -11.88
+      ],
+      "ianaTimezones": [
+        "Africa/Luanda"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BI": {
+      "iso3": "BDI",
+      "name": "Burundi",
+      "capital": "Bujumbura",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 27834,
+      "populationSnapshot": 9530434,
+      "center": [
+        29.957,
+        -3.464
+      ],
+      "ianaTimezones": [
+        "Africa/Bujumbura"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "IL": {
+      "iso3": "ISR",
+      "name": "Israel",
+      "capital": "Jerusalem",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 20770,
+      "populationSnapshot": 8268400,
+      "center": [
+        34.691,
+        31.421
+      ],
+      "ianaTimezones": [
+        "Asia/Jerusalem"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LB": {
+      "iso3": "LBN",
+      "name": "Lebanon",
+      "capital": "Beirut",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 10452,
+      "populationSnapshot": 4104000,
+      "center": [
+        35.795,
+        33.865
+      ],
+      "ianaTimezones": [
+        "Asia/Beirut"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MG": {
+      "iso3": "MDG",
+      "name": "Madagascar",
+      "capital": "Antananarivo",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 587041,
+      "populationSnapshot": 21842167,
+      "center": [
+        46.669,
+        -18.647
+      ],
+      "ianaTimezones": [
+        "Indian/Antananarivo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PS": {
+      "iso3": "PSE",
+      "name": "Palestine",
+      "capital": null,
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 6020,
+      "populationSnapshot": 5500000,
+      "center": [
+        35.302,
+        32.13
+      ],
+      "ianaTimezones": [
+        "Asia/Gaza",
+        "Asia/Hebron"
+      ],
+      "dataClass": "ESTIMATED_MANUAL_REFERENCE",
+      "source": "manualReferenceV1",
+      "confidence": 0.65
+    },
+    "GM": {
+      "iso3": "GMB",
+      "name": "Gambia",
+      "capital": "Banjul",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "areaKm2": 11295,
+      "populationSnapshot": 1882450,
+      "center": [
+        -16.042,
+        13.402
+      ],
+      "ianaTimezones": [
+        "Africa/Banjul"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TN": {
+      "iso3": "TUN",
+      "name": "Tunisia",
+      "capital": "Tunis",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "areaKm2": 163610,
+      "populationSnapshot": 10982754,
+      "center": [
+        8.914,
+        33.942
+      ],
+      "ianaTimezones": [
+        "Africa/Tunis"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "DZ": {
+      "iso3": "DZA",
+      "name": "Algeria",
+      "capital": "Algiers",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "areaKm2": 2381741,
+      "populationSnapshot": 38700000,
+      "center": [
+        0.526,
+        27.916
+      ],
+      "ianaTimezones": [
+        "Africa/Algiers"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "JO": {
+      "iso3": "JOR",
+      "name": "Jordan",
+      "capital": "Amman",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 89342,
+      "populationSnapshot": 6666960,
+      "center": [
+        36.312,
+        31.295
+      ],
+      "ianaTimezones": [
+        "Asia/Amman"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AE": {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "capital": "Abu Dhabi",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 83600,
+      "populationSnapshot": 9446000,
+      "center": [
+        54.988,
+        24.282
+      ],
+      "ianaTimezones": [
+        "Asia/Dubai"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "QA": {
+      "iso3": "QAT",
+      "name": "Qatar",
+      "capital": "Doha",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 11586,
+      "populationSnapshot": 2269672,
+      "center": [
+        51.179,
+        25.349
+      ],
+      "ianaTimezones": [
+        "Asia/Qatar"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "KW": {
+      "iso3": "KWT",
+      "name": "Kuwait",
+      "capital": "Kuwait City",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 17818,
+      "populationSnapshot": 3268431,
+      "center": [
+        47.393,
+        29.203
+      ],
+      "ianaTimezones": [
+        "Asia/Kuwait"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "IQ": {
+      "iso3": "IRQ",
+      "name": "Iraq",
+      "capital": "Baghdad",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 438317,
+      "populationSnapshot": 36004552,
+      "center": [
+        42.415,
+        33.198
+      ],
+      "ianaTimezones": [
+        "Asia/Baghdad"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "OM": {
+      "iso3": "OMN",
+      "name": "Oman",
+      "capital": "Muscat",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 309500,
+      "populationSnapshot": 4089076,
+      "center": [
+        56.977,
+        20.798
+      ],
+      "ianaTimezones": [
+        "Asia/Muscat"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "VU": {
+      "iso3": "VUT",
+      "name": "Vanuatu",
+      "capital": "Port Vila",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "areaKm2": 12189,
+      "populationSnapshot": 264652,
+      "center": [
+        166.899,
+        -15.163
+      ],
+      "ianaTimezones": [
+        "Pacific/Efate"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "KH": {
+      "iso3": "KHM",
+      "name": "Cambodia",
+      "capital": "Phnom Penh",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 181035,
+      "populationSnapshot": 15184116,
+      "center": [
+        104.999,
+        12.866
+      ],
+      "ianaTimezones": [
+        "Asia/Phnom_Penh"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TH": {
+      "iso3": "THA",
+      "name": "Thailand",
+      "capital": "Bangkok",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 513120,
+      "populationSnapshot": 64871000,
+      "center": [
+        101.663,
+        13.037
+      ],
+      "ianaTimezones": [
+        "Asia/Bangkok"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LA": {
+      "iso3": "LAO",
+      "name": "Laos",
+      "capital": "Vientiane",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 236800,
+      "populationSnapshot": 6693300,
+      "center": [
+        102.082,
+        18.175
+      ],
+      "ianaTimezones": [
+        "Asia/Vientiane"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MM": {
+      "iso3": "MMR",
+      "name": "Myanmar",
+      "capital": "Naypyidaw",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 676578,
+      "populationSnapshot": 54500000,
+      "center": [
+        95.873,
+        18.997
+      ],
+      "ianaTimezones": [
+        "Asia/Yangon"
+      ],
+      "dataClass": "ESTIMATED_MANUAL_REFERENCE",
+      "source": "manualReferenceV1",
+      "confidence": 0.72
+    },
+    "VN": {
+      "iso3": "VNM",
+      "name": "Vietnam",
+      "capital": "Hanoi",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 331212,
+      "populationSnapshot": 89708900,
+      "center": [
+        107.777,
+        15.994
+      ],
+      "ianaTimezones": [
+        "Asia/Ho_Chi_Minh"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "KP": {
+      "iso3": "PRK",
+      "name": "North Korea",
+      "capital": "Pyongyang",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "areaKm2": 120538,
+      "populationSnapshot": 25027000,
+      "center": [
+        126.804,
+        40.338
+      ],
+      "ianaTimezones": [
+        "Asia/Pyongyang"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "KR": {
+      "iso3": "KOR",
+      "name": "South Korea",
+      "capital": "Seoul",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "areaKm2": 100210,
+      "populationSnapshot": 50423955,
+      "center": [
+        127.901,
+        36.205
+      ],
+      "ianaTimezones": [
+        "Asia/Seoul"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MN": {
+      "iso3": "MNG",
+      "name": "Mongolia",
+      "capital": "Ulan Bator",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "areaKm2": 1564110,
+      "populationSnapshot": 2987733,
+      "center": [
+        105.334,
+        46.847
+      ],
+      "ianaTimezones": [
+        "Asia/Ulaanbaatar",
+        "Asia/Hovd"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "IN": {
+      "iso3": "IND",
+      "name": "India",
+      "capital": "New Delhi",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 3287590,
+      "populationSnapshot": 1263930000,
+      "center": [
+        79.179,
+        21.872
+      ],
+      "ianaTimezones": [
+        "Asia/Kolkata"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BD": {
+      "iso3": "BGD",
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 147570,
+      "populationSnapshot": 157486000,
+      "center": [
+        89.876,
+        23.564
+      ],
+      "ianaTimezones": [
+        "Asia/Dhaka"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BT": {
+      "iso3": "BTN",
+      "name": "Bhutan",
+      "capital": "Thimphu",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 38394,
+      "populationSnapshot": 755030,
+      "center": [
+        90.496,
+        27.612
+      ],
+      "ianaTimezones": [
+        "Asia/Thimphu"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NP": {
+      "iso3": "NPL",
+      "name": "Nepal",
+      "capital": "Kathmandu",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 147181,
+      "populationSnapshot": 27646053,
+      "center": [
+        83.444,
+        28.31
+      ],
+      "ianaTimezones": [
+        "Asia/Kathmandu"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PK": {
+      "iso3": "PAK",
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 881912,
+      "populationSnapshot": 188410000,
+      "center": [
+        70.093,
+        30.358
+      ],
+      "ianaTimezones": [
+        "Asia/Karachi"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AF": {
+      "iso3": "AFG",
+      "name": "Afghanistan",
+      "capital": "Kabul",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 652230,
+      "populationSnapshot": 26023100,
+      "center": [
+        65.315,
+        33.833
+      ],
+      "ianaTimezones": [
+        "Asia/Kabul"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TJ": {
+      "iso3": "TJK",
+      "name": "Tajikistan",
+      "capital": "Dushanbe",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "areaKm2": 143100,
+      "populationSnapshot": 8161000,
+      "center": [
+        71.04,
+        38.754
+      ],
+      "ianaTimezones": [
+        "Asia/Dushanbe"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "KG": {
+      "iso3": "KGZ",
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "areaKm2": 199951,
+      "populationSnapshot": 5776570,
+      "center": [
+        75.192,
+        41.289
+      ],
+      "ianaTimezones": [
+        "Asia/Bishkek"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TM": {
+      "iso3": "TKM",
+      "name": "Turkmenistan",
+      "capital": "Ashgabat",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "areaKm2": 488100,
+      "populationSnapshot": 5838064,
+      "center": [
+        58.672,
+        39.121
+      ],
+      "ianaTimezones": [
+        "Asia/Ashgabat"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "IR": {
+      "iso3": "IRN",
+      "name": "Iran",
+      "capital": "Tehran",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 1648195,
+      "populationSnapshot": 77966400,
+      "center": [
+        54.118,
+        32.326
+      ],
+      "ianaTimezones": [
+        "Asia/Tehran"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SY": {
+      "iso3": "SYR",
+      "name": "Syria",
+      "capital": "Damascus",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 185180,
+      "populationSnapshot": 22964324,
+      "center": [
+        38.574,
+        35.027
+      ],
+      "ianaTimezones": [
+        "Asia/Damascus"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AM": {
+      "iso3": "ARM",
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 29743,
+      "populationSnapshot": 3009800,
+      "center": [
+        45.064,
+        39.952
+      ],
+      "ianaTimezones": [
+        "Asia/Yerevan"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SE": {
+      "iso3": "SWE",
+      "name": "Sweden",
+      "capital": "Stockholm",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 450295,
+      "populationSnapshot": 9737521,
+      "center": [
+        14.786,
+        62.275
+      ],
+      "ianaTimezones": [
+        "Europe/Stockholm"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BY": {
+      "iso3": "BLR",
+      "name": "Belarus",
+      "capital": "Minsk",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 207600,
+      "populationSnapshot": 9475100,
+      "center": [
+        27.786,
+        53.706
+      ],
+      "ianaTimezones": [
+        "Europe/Minsk"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "UA": {
+      "iso3": "UKR",
+      "name": "Ukraine",
+      "capital": "Kiev",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 603700,
+      "populationSnapshot": 42973696,
+      "center": [
+        30.981,
+        48.805
+      ],
+      "ianaTimezones": [
+        "Europe/Simferopol",
+        "Europe/Kyiv"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PL": {
+      "iso3": "POL",
+      "name": "Poland",
+      "capital": "Warsaw",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 312679,
+      "populationSnapshot": 38496000,
+      "center": [
+        19.076,
+        51.884
+      ],
+      "ianaTimezones": [
+        "Europe/Warsaw"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AT": {
+      "iso3": "AUT",
+      "name": "Austria",
+      "capital": "Vienna",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "areaKm2": 83871,
+      "populationSnapshot": 8527230,
+      "center": [
+        14.953,
+        47.919
+      ],
+      "ianaTimezones": [
+        "Europe/Vienna"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "HU": {
+      "iso3": "HUN",
+      "name": "Hungary",
+      "capital": "Budapest",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 93028,
+      "populationSnapshot": 9879000,
+      "center": [
+        19.103,
+        47.245
+      ],
+      "ianaTimezones": [
+        "Europe/Budapest"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MD": {
+      "iso3": "MDA",
+      "name": "Moldova",
+      "capital": "Chișinău",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 33846,
+      "populationSnapshot": 3557600,
+      "center": [
+        28.649,
+        47.138
+      ],
+      "ianaTimezones": [
+        "Europe/Chisinau"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "RO": {
+      "iso3": "ROU",
+      "name": "Romania",
+      "capital": "Bucharest",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 238391,
+      "populationSnapshot": 19942642,
+      "center": [
+        24.212,
+        46.036
+      ],
+      "ianaTimezones": [
+        "Europe/Bucharest"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LT": {
+      "iso3": "LTU",
+      "name": "Lithuania",
+      "capital": "Vilnius",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 65300,
+      "populationSnapshot": 2927310,
+      "center": [
+        24.128,
+        55.091
+      ],
+      "ianaTimezones": [
+        "Europe/Vilnius"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LV": {
+      "iso3": "LVA",
+      "name": "Latvia",
+      "capital": "Riga",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 64559,
+      "populationSnapshot": 1991800,
+      "center": [
+        24.504,
+        56.895
+      ],
+      "ianaTimezones": [
+        "Europe/Riga"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "EE": {
+      "iso3": "EST",
+      "name": "Estonia",
+      "capital": "Tallinn",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 45227,
+      "populationSnapshot": 1315819,
+      "center": [
+        25.562,
+        58.498
+      ],
+      "ianaTimezones": [
+        "Europe/Tallinn"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "DE": {
+      "iso3": "DEU",
+      "name": "Germany",
+      "capital": "Berlin",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "areaKm2": 357114,
+      "populationSnapshot": 80783000,
+      "center": [
+        10.432,
+        51.431
+      ],
+      "ianaTimezones": [
+        "Europe/Berlin",
+        "Europe/Busingen"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BG": {
+      "iso3": "BGR",
+      "name": "Bulgaria",
+      "capital": "Sofia",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 110879,
+      "populationSnapshot": 7245677,
+      "center": [
+        25.139,
+        42.739
+      ],
+      "ianaTimezones": [
+        "Europe/Sofia"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GR": {
+      "iso3": "GRC",
+      "name": "Greece",
+      "capital": "Athens",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 131990,
+      "populationSnapshot": 10992589,
+      "center": [
+        21.806,
+        39.08
+      ],
+      "ianaTimezones": [
+        "Europe/Athens"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TR": {
+      "iso3": "TUR",
+      "name": "Turkey",
+      "capital": "Ankara",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 783562,
+      "populationSnapshot": 76667864,
+      "center": [
+        35.455,
+        38.634
+      ],
+      "ianaTimezones": [
+        "Europe/Istanbul"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AL": {
+      "iso3": "ALB",
+      "name": "Albania",
+      "capital": "Tirana",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 28748,
+      "populationSnapshot": 2895947,
+      "center": [
+        19.968,
+        41.248
+      ],
+      "ianaTimezones": [
+        "Europe/Tirane"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "HR": {
+      "iso3": "HRV",
+      "name": "Croatia",
+      "capital": "Zagreb",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 56594,
+      "populationSnapshot": 4267558,
+      "center": [
+        15.584,
+        44.545
+      ],
+      "ianaTimezones": [
+        "Europe/Zagreb"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CH": {
+      "iso3": "CHE",
+      "name": "Switzerland",
+      "capital": "Bern",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "areaKm2": 41284,
+      "populationSnapshot": 8183800,
+      "center": [
+        8.287,
+        46.81
+      ],
+      "ianaTimezones": [
+        "Europe/Zurich"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LU": {
+      "iso3": "LUX",
+      "name": "Luxembourg",
+      "capital": "Luxembourg",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "areaKm2": 2586,
+      "populationSnapshot": 549700,
+      "center": [
+        5.964,
+        49.716
+      ],
+      "ianaTimezones": [
+        "Europe/Luxembourg"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BE": {
+      "iso3": "BEL",
+      "name": "Belgium",
+      "capital": "Brussels",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "areaKm2": 30528,
+      "populationSnapshot": 11225469,
+      "center": [
+        4.737,
+        50.58
+      ],
+      "ianaTimezones": [
+        "Europe/Brussels"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NL": {
+      "iso3": "NLD",
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "areaKm2": 41850,
+      "populationSnapshot": 16881000,
+      "center": [
+        5.398,
+        52.04
+      ],
+      "ianaTimezones": [
+        "Europe/Amsterdam"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PT": {
+      "iso3": "PRT",
+      "name": "Portugal",
+      "capital": "Lisbon",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 92090,
+      "populationSnapshot": 10477800,
+      "center": [
+        -8.368,
+        39.511
+      ],
+      "ianaTimezones": [
+        "Europe/Lisbon",
+        "Atlantic/Madeira",
+        "Atlantic/Azores"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ES": {
+      "iso3": "ESP",
+      "name": "Spain",
+      "capital": "Madrid",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 505992,
+      "populationSnapshot": 46507760,
+      "center": [
+        -3.52,
+        39.918
+      ],
+      "ianaTimezones": [
+        "Europe/Madrid",
+        "Africa/Ceuta",
+        "Atlantic/Canary"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "IE": {
+      "iso3": "IRL",
+      "name": "Ireland",
+      "capital": "Dublin",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 70273,
+      "populationSnapshot": 6378000,
+      "center": [
+        -7.807,
+        53.51
+      ],
+      "ianaTimezones": [
+        "Europe/Dublin"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NC": {
+      "iso3": "NCL",
+      "name": "New Caledonia",
+      "capital": "Nouméa",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "areaKm2": 18575,
+      "populationSnapshot": 268767,
+      "center": [
+        165.687,
+        -21.415
+      ],
+      "ianaTimezones": [
+        "Pacific/Noumea"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SB": {
+      "iso3": "SLB",
+      "name": "Solomon Is.",
+      "capital": "Honiara",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "areaKm2": 28896,
+      "populationSnapshot": 581344,
+      "center": [
+        160.094,
+        -9.505
+      ],
+      "ianaTimezones": [
+        "Pacific/Guadalcanal"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "NZ": {
+      "iso3": "NZL",
+      "name": "New Zealand",
+      "capital": "Wellington",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "areaKm2": 270467,
+      "populationSnapshot": 4547900,
+      "center": [
+        176.517,
+        -38.305
+      ],
+      "ianaTimezones": [
+        "Pacific/Auckland",
+        "Pacific/Chatham"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AU": {
+      "iso3": "AUS",
+      "name": "Australia",
+      "capital": "Canberra",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "areaKm2": 7692024,
+      "populationSnapshot": 23696900,
+      "center": [
+        133.059,
+        -24.841
+      ],
+      "ianaTimezones": [
+        "Australia/Lord_Howe",
+        "Antarctica/Macquarie",
+        "Australia/Hobart",
+        "Australia/Melbourne",
+        "Australia/Sydney",
+        "Australia/Broken_Hill",
+        "Australia/Brisbane",
+        "Australia/Lindeman",
+        "Australia/Adelaide",
+        "Australia/Darwin",
+        "Australia/Perth",
+        "Australia/Eucla"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LK": {
+      "iso3": "LKA",
+      "name": "Sri Lanka",
+      "capital": "Colombo",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "areaKm2": 65610,
+      "populationSnapshot": 20277597,
+      "center": [
+        80.684,
+        7.862
+      ],
+      "ianaTimezones": [
+        "Asia/Colombo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CN": {
+      "iso3": "CHN",
+      "name": "China",
+      "capital": "Beijing",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "areaKm2": 9640011,
+      "populationSnapshot": 1367110000,
+      "center": [
+        98.77,
+        36.799
+      ],
+      "ianaTimezones": [
+        "Asia/Shanghai",
+        "Asia/Urumqi"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "TW": {
+      "iso3": "TWN",
+      "name": "Taiwan",
+      "capital": "Taipei",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "areaKm2": 36193,
+      "populationSnapshot": 23424615,
+      "center": [
+        120.989,
+        23.975
+      ],
+      "ianaTimezones": [
+        "Asia/Taipei"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "IT": {
+      "iso3": "ITA",
+      "name": "Italy",
+      "capital": "Rome",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 301336,
+      "populationSnapshot": 60769102,
+      "center": [
+        12.631,
+        42.558
+      ],
+      "ianaTimezones": [
+        "Europe/Rome"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "DK": {
+      "iso3": "DNK",
+      "name": "Denmark",
+      "capital": "Copenhagen",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 43094,
+      "populationSnapshot": 5655750,
+      "center": [
+        9.461,
+        56.324
+      ],
+      "ianaTimezones": [
+        "Europe/Copenhagen"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GB": {
+      "iso3": "GBR",
+      "name": "United Kingdom",
+      "capital": "London",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 242900,
+      "populationSnapshot": 64105654,
+      "center": [
+        -1.753,
+        54.225
+      ],
+      "ianaTimezones": [
+        "Europe/London"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "IS": {
+      "iso3": "ISL",
+      "name": "Iceland",
+      "capital": "Reykjavik",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 103000,
+      "populationSnapshot": 328170,
+      "center": [
+        -18.458,
+        64.988
+      ],
+      "ianaTimezones": [
+        "Atlantic/Reykjavik"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AZ": {
+      "iso3": "AZE",
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 86600,
+      "populationSnapshot": 9552500,
+      "center": [
+        47.635,
+        40.038
+      ],
+      "ianaTimezones": [
+        "Asia/Baku"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "GE": {
+      "iso3": "GEO",
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 69700,
+      "populationSnapshot": 4490500,
+      "center": [
+        43.602,
+        42.298
+      ],
+      "ianaTimezones": [
+        "Asia/Tbilisi"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PH": {
+      "iso3": "PHL",
+      "name": "Philippines",
+      "capital": "Manila",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 342353,
+      "populationSnapshot": 100697400,
+      "center": [
+        125.206,
+        7.604
+      ],
+      "ianaTimezones": [
+        "Asia/Manila"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MY": {
+      "iso3": "MYS",
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 330803,
+      "populationSnapshot": 30430500,
+      "center": [
+        102.072,
+        3.833
+      ],
+      "ianaTimezones": [
+        "Asia/Kuala_Lumpur",
+        "Asia/Kuching"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BN": {
+      "iso3": "BRN",
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "areaKm2": 5765,
+      "populationSnapshot": 393372,
+      "center": [
+        114.893,
+        4.713
+      ],
+      "ianaTimezones": [
+        "Asia/Brunei"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SI": {
+      "iso3": "SVN",
+      "name": "Slovenia",
+      "capital": "Ljubljana",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 20273,
+      "populationSnapshot": 2064966,
+      "center": [
+        14.732,
+        46.127
+      ],
+      "ianaTimezones": [
+        "Europe/Ljubljana"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "FI": {
+      "iso3": "FIN",
+      "name": "Finland",
+      "capital": "Helsinki",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "areaKm2": 338424,
+      "populationSnapshot": 5470437,
+      "center": [
+        27.373,
+        65.03
+      ],
+      "ianaTimezones": [
+        "Europe/Helsinki"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SK": {
+      "iso3": "SVK",
+      "name": "Slovakia",
+      "capital": "Bratislava",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 49037,
+      "populationSnapshot": 5415949,
+      "center": [
+        19.63,
+        48.712
+      ],
+      "ianaTimezones": [
+        "Europe/Bratislava"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "CZ": {
+      "iso3": "CZE",
+      "name": "Czechia",
+      "capital": "Prague",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 78865,
+      "populationSnapshot": 10521600,
+      "center": [
+        15.538,
+        49.758
+      ],
+      "ianaTimezones": [
+        "Europe/Prague"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ER": {
+      "iso3": "ERI",
+      "name": "Eritrea",
+      "capital": "Asmara",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 117600,
+      "populationSnapshot": 6536000,
+      "center": [
+        38.296,
+        15.198
+      ],
+      "ianaTimezones": [
+        "Africa/Asmara"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "JP": {
+      "iso3": "JPN",
+      "name": "Japan",
+      "capital": "Tokyo",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "areaKm2": 377930,
+      "populationSnapshot": 127080000,
+      "center": [
+        138.349,
+        36.093
+      ],
+      "ianaTimezones": [
+        "Asia/Tokyo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "PY": {
+      "iso3": "PRY",
+      "name": "Paraguay",
+      "capital": "Asunción",
+      "region": "Americas",
+      "subregion": "South America",
+      "areaKm2": 406752,
+      "populationSnapshot": 6893727,
+      "center": [
+        -58.637,
+        -23.114
+      ],
+      "ianaTimezones": [
+        "America/Asuncion"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "YE": {
+      "iso3": "YEM",
+      "name": "Yemen",
+      "capital": "Sana'a",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 527968,
+      "populationSnapshot": 25956000,
+      "center": [
+        47.473,
+        15.815
+      ],
+      "ianaTimezones": [
+        "Asia/Aden"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SA": {
+      "iso3": "SAU",
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "areaKm2": 2149690,
+      "populationSnapshot": 30770375,
+      "center": [
+        44.553,
+        24.265
+      ],
+      "ianaTimezones": [
+        "Asia/Riyadh"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "AQ": {
+      "iso3": "ATA",
+      "name": "Antarctica",
+      "capital": null,
+      "region": "Antarctica",
+      "subregion": "Antarctica",
+      "areaKm2": 14200000,
+      "populationSnapshot": 0,
+      "center": [
+        67.374,
+        -76.654
+      ],
+      "ianaTimezones": [
+        "Antarctica/McMurdo",
+        "Antarctica/Casey",
+        "Antarctica/Davis",
+        "Antarctica/DumontDUrville",
+        "Antarctica/Mawson",
+        "Antarctica/Palmer",
+        "Antarctica/Rothera",
+        "Antarctica/Syowa",
+        "Antarctica/Troll",
+        "Antarctica/Vostok"
+      ],
+      "dataClass": "SPECIAL_REFERENCE",
+      "source": "manualReferenceV1",
+      "confidence": 0.9
+    },
+    "CY": {
+      "iso3": "CYP",
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 9251,
+      "populationSnapshot": 858000,
+      "center": [
+        33.222,
+        35.121
+      ],
+      "ianaTimezones": [
+        "Asia/Nicosia",
+        "Asia/Famagusta"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MA": {
+      "iso3": "MAR",
+      "name": "Morocco",
+      "capital": "Rabat",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "areaKm2": 446550,
+      "populationSnapshot": 33465000,
+      "center": [
+        -9.983,
+        28.49
+      ],
+      "ianaTimezones": [
+        "Africa/Casablanca"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "EG": {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "capital": "Cairo",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "areaKm2": 1002450,
+      "populationSnapshot": 87668100,
+      "center": [
+        29.37,
+        26.895
+      ],
+      "ianaTimezones": [
+        "Africa/Cairo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "LY": {
+      "iso3": "LBY",
+      "name": "Libya",
+      "capital": "Tripoli",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "areaKm2": 1759540,
+      "populationSnapshot": 6253000,
+      "center": [
+        17.259,
+        26.303
+      ],
+      "ianaTimezones": [
+        "Africa/Tripoli"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ET": {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "capital": "Addis Ababa",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 1104300,
+      "populationSnapshot": 87952991,
+      "center": [
+        38.726,
+        9.362
+      ],
+      "ianaTimezones": [
+        "Africa/Addis_Ababa"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "DJ": {
+      "iso3": "DJI",
+      "name": "Djibouti",
+      "capital": "Djibouti",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 23200,
+      "populationSnapshot": 886000,
+      "center": [
+        42.412,
+        11.855
+      ],
+      "ianaTimezones": [
+        "Africa/Djibouti"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "UG": {
+      "iso3": "UGA",
+      "name": "Uganda",
+      "capital": "Kampala",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 241550,
+      "populationSnapshot": 34856813,
+      "center": [
+        32.547,
+        1.38
+      ],
+      "ianaTimezones": [
+        "Africa/Kampala"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "RW": {
+      "iso3": "RWA",
+      "name": "Rwanda",
+      "capital": "Kigali",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "areaKm2": 26338,
+      "populationSnapshot": 10996891,
+      "center": [
+        30.031,
+        -1.957
+      ],
+      "ianaTimezones": [
+        "Africa/Kigali"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "BA": {
+      "iso3": "BIH",
+      "name": "Bosnia and Herz.",
+      "capital": "Sarajevo",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 51209,
+      "populationSnapshot": 3791622,
+      "center": [
+        18.115,
+        43.853
+      ],
+      "ianaTimezones": [
+        "Europe/Sarajevo"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "MK": {
+      "iso3": "MKD",
+      "name": "Macedonia",
+      "capital": "Skopje",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 25713,
+      "populationSnapshot": 2058539,
+      "center": [
+        21.72,
+        41.681
+      ],
+      "ianaTimezones": [
+        "Europe/Skopje"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "RS": {
+      "iso3": "SRB",
+      "name": "Serbia",
+      "capital": "Belgrade",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "areaKm2": 49037,
+      "populationSnapshot": 7186862,
+      "center": [
+        21.013,
+        44.137
+      ],
+      "ianaTimezones": [
+        "Europe/Belgrade"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "ME": {
+      "iso3": "MNE",
+      "name": "Montenegro",
+      "capital": "Podgorica",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 13812,
+      "populationSnapshot": 617000,
+      "center": [
+        19.396,
+        42.75
+      ],
+      "ianaTimezones": [
+        "Europe/Podgorica"
+      ],
+      "dataClass": "ESTIMATED_MANUAL_REFERENCE",
+      "source": "manualReferenceV1",
+      "confidence": 0.74
+    },
+    "XK": {
+      "iso3": "XKX",
+      "name": "Kosovo",
+      "capital": "Pristina",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "areaKm2": 10887,
+      "populationSnapshot": 1587000,
+      "center": [
+        20.914,
+        42.514
+      ],
+      "ianaTimezones": [],
+      "dataClass": "ESTIMATED_MANUAL_REFERENCE",
+      "source": "manualReferenceV1",
+      "confidence": 0.68
+    },
+    "TT": {
+      "iso3": "TTO",
+      "name": "Trinidad and Tobago",
+      "capital": "Port of Spain",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "areaKm2": 5130,
+      "populationSnapshot": 1328019,
+      "center": [
+        -61.29,
+        10.563
+      ],
+      "ianaTimezones": [
+        "America/Port_of_Spain"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    },
+    "SS": {
+      "iso3": "SSD",
+      "name": "S. Sudan",
+      "capital": "Juba",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "areaKm2": 619745,
+      "populationSnapshot": 11384393,
+      "center": [
+        28.97,
+        8.027
+      ],
+      "ianaTimezones": [
+        "Africa/Juba"
+      ],
+      "dataClass": "REAL_METADATA_UNDATED",
+      "source": "countryInfoSnapshot",
+      "confidence": 0.82
+    }
+  },
+  "sources": {
+    "countryInfoSnapshot": {
+      "name": "CountryInfo local snapshot",
+      "kind": "public cached metadata",
+      "url": "https://github.com/porimol/countryinfo",
+      "note": "Undated cached geographic/demographic metadata; not treated as current time-series."
+    },
+    "manualReferenceV1": {
+      "name": "World Invasion manual reference completion",
+      "kind": "documented estimate",
+      "note": "Used only where the local metadata source has no usable record; explicitly marked estimated/special."
+    }
+  }
+}

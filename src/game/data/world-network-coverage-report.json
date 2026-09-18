@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-14",
+  "countries": 175,
+  "inhabitedCountries": 174,
+  "nodes": 3394,
+  "routes": 4829,
+  "gateways": 904,
+  "routeTypeCounts": {
+    "ROAD_ROUTE": 1848,
+    "RAIL_ROUTE": 1027,
+    "POWER_ROUTE": 866,
+    "DIGITAL_ROUTE": 381,
+    "AIR_ROUTE": 370,
+    "PIPELINE_ROUTE": 36,
+    "SEA_ROUTE": 301
+  },
+  "scopeCounts": {
+    "DOMESTIC": 3431,
+    "INTERNATIONAL": 1394,
+    "CORRIDOR": 4
+  },
+  "gatewayTypeCounts": {
+    "SEA_GATEWAY": 143,
+    "AIR_GATEWAY": 205,
+    "DIGITAL_GATEWAY": 234,
+    "ROAD_BORDER": 151,
+    "RAIL_BORDER": 151,
+    "PIPELINE_BORDER": 20
+  },
+  "countriesWithRoutes": 174,
+  "validation": {
+    "errors": [],
+    "warnings": []
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {"id":"EU","name":"Europe","type":"macro","center":[15,52],"bounds":[-25,34,45,72]},
+  {"id":"NA","name":"North America","type":"macro","center":[-102,45],"bounds":[-168,15,-52,75]},
+  {"id":"SA","name":"South America","type":"macro","center":[-60,-15],"bounds":[-82,-56,-34,13]},
+  {"id":"AF","name":"Africa","type":"macro","center":[20,4],"bounds":[-18,-35,52,38]},
+  {"id":"MEA","name":"Middle East","type":"macro","center":[45,27],"bounds":[28,12,64,42]},
+  {"id":"SAS","name":"South Asia","type":"macro","center":[78,22],"bounds":[60,5,92,38]},
+  {"id":"EAS","name":"East Asia","type":"macro","center":[116,36],"bounds":[92,18,146,55]},
+  {"id":"SEA","name":"Southeast Asia","type":"macro","center":[106,7],"bounds":[92,-12,132,24]},
+  {"id":"OC","name":"Oceania","type":"macro","center":[145,-25],"bounds":[110,-48,180,5]}
+]

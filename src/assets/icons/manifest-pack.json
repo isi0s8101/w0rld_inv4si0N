@@ -1,0 +1,294 @@
+{
+  "strategique_dual_use/satellite.png": {
+    "source": "/mnt/data/world_invasion_icons_transparents/satellite_transparent.png",
+    "type": "strategique_dual_use"
+  },
+  "civil/ville.png": {
+    "source": "/mnt/data/world_invasion_icons_transparents/ville_transparent.png",
+    "type": "civil"
+  },
+  "strategique_dual_use/antenne_communication.png": {
+    "source": "/mnt/data/world_invasion_icons_transparents/antenne_transparent.png",
+    "type": "strategique_dual_use"
+  },
+  "militaire/base_militaire.png": {
+    "source": "/mnt/data/world_invasion_icons_transparents/base_militaire_transparent.png",
+    "type": "militaire"
+  },
+  "militaire/bateau_militaire.png": {
+    "source": "/mnt/data/world_invasion_icons_transparents/bateau_transparent.png",
+    "type": "militaire"
+  },
+  "militaire/avion_militaire.png": {
+    "source": "/mnt/data/world_invasion_icons_transparents/avion_transparent.png",
+    "type": "militaire"
+  },
+  "civil/train.png": {
+    "source": "/mnt/data/schéma_néon_d_un_train_futuriste.png",
+    "type": "civil"
+  },
+  "civil/port_maritime.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      0,
+      0,
+      362,
+      543
+    ],
+    "type": "civil"
+  },
+  "civil/aeroport_aerodrome.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      362,
+      0,
+      724,
+      543
+    ],
+    "type": "civil"
+  },
+  "civil/centrale_electrique.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      724,
+      0,
+      1086,
+      543
+    ],
+    "type": "civil"
+  },
+  "civil/poste_electrique_reseau_haute_tension.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      1086,
+      0,
+      1448,
+      543
+    ],
+    "type": "civil"
+  },
+  "civil/raffinerie_depot_petrolier.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      0,
+      543,
+      362,
+      1086
+    ],
+    "type": "civil"
+  },
+  "civil/usine_complexe_industriel.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      362,
+      543,
+      724,
+      1086
+    ],
+    "type": "civil"
+  },
+  "civil/centre_logistique_entrepot.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      724,
+      543,
+      1086,
+      1086
+    ],
+    "type": "civil"
+  },
+  "civil/data_center.png": {
+    "source": "/mnt/data/ghostwriter_images/context/edb43faa-649b-5bfd-8412-ad46f38ffce4.png",
+    "sheet": "sheet_civil_industrie",
+    "grid_box": [
+      1086,
+      543,
+      1448,
+      1086
+    ],
+    "type": "civil"
+  },
+  "militaire/sous_marin.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      0,
+      0,
+      362,
+      543
+    ],
+    "type": "militaire"
+  },
+  "civil/pipeline_petrole_gaz.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      362,
+      0,
+      724,
+      543
+    ],
+    "type": "civil"
+  },
+  "civil/mine_zone_extraction.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      724,
+      0,
+      1086,
+      543
+    ],
+    "type": "civil"
+  },
+  "civil/barrage.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      1086,
+      0,
+      1448,
+      543
+    ],
+    "type": "civil"
+  },
+  "civil/pont_strategique.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      0,
+      543,
+      362,
+      1086
+    ],
+    "type": "civil"
+  },
+  "civil/canal_detroit_strategique.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      362,
+      543,
+      724,
+      1086
+    ],
+    "type": "civil"
+  },
+  "civil/capitale_gouvernement.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      724,
+      543,
+      1086,
+      1086
+    ],
+    "type": "civil"
+  },
+  "strategique_dual_use/spaceport_centre_spatial.png": {
+    "source": "/mnt/data/ghostwriter_images/context/74862354-b75a-54d9-8ed3-8d5fc7fd50d5.png",
+    "sheet": "sheet_mixte_strategique",
+    "grid_box": [
+      1086,
+      543,
+      1448,
+      1086
+    ],
+    "type": "strategique_dual_use"
+  },
+  "strategique_dual_use/noeud_internet_ixp.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      0,
+      0,
+      362,
+      543
+    ],
+    "type": "strategique_dual_use"
+  },
+  "strategique_dual_use/station_atterrissage_cable_sous_marin.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      362,
+      0,
+      724,
+      543
+    ],
+    "type": "strategique_dual_use"
+  },
+  "militaire/radar_militaire.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      724,
+      0,
+      1086,
+      543
+    ],
+    "type": "militaire"
+  },
+  "militaire/base_aerienne.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      1086,
+      0,
+      1448,
+      543
+    ],
+    "type": "militaire"
+  },
+  "militaire/base_navale.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      0,
+      543,
+      362,
+      1086
+    ],
+    "type": "militaire"
+  },
+  "militaire/depot_militaire_arsenal.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      362,
+      543,
+      724,
+      1086
+    ],
+    "type": "militaire"
+  },
+  "civil/camion_logistique.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      724,
+      543,
+      1086,
+      1086
+    ],
+    "type": "civil"
+  },
+  "militaire/drone.png": {
+    "source": "/mnt/data/ghostwriter_images/context/8ea9fd96-a9aa-5e05-b3f4-4c1ff8991dc3.png",
+    "sheet": "sheet_militaire_mixte",
+    "grid_box": [
+      1086,
+      543,
+      1448,
+      1086
+    ],
+    "type": "militaire"
+  }
+}

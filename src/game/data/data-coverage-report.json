@@ -1,0 +1,54 @@
+{
+  "version": "0.4.0",
+  "generatedAt": "2026-09-13",
+  "countries": 175,
+  "fieldsPerCountry": 10,
+  "totalFields": 1750,
+  "classCounts": {
+    "REAL": 30,
+    "ESTIMATED_MODEL": 1431,
+    "ESTIMATED_FROM_METADATA": 169,
+    "ESTIMATED_FROM_REAL_ANCHOR": 119,
+    "SPECIAL": 1
+  },
+  "fieldClassCounts": {
+    "population": {
+      "REAL": 5,
+      "ESTIMATED_FROM_METADATA": 169,
+      "SPECIAL": 1
+    },
+    "populationGrowthAnnualPct": {
+      "REAL": 5,
+      "ESTIMATED_MODEL": 170
+    },
+    "netMigration": {
+      "REAL": 5,
+      "ESTIMATED_MODEL": 170
+    },
+    "gdpCurrentUsd": {
+      "REAL": 5,
+      "ESTIMATED_MODEL": 170
+    },
+    "gdpPerCapitaUsd": {
+      "REAL": 5,
+      "ESTIMATED_MODEL": 51,
+      "ESTIMATED_FROM_REAL_ANCHOR": 119
+    },
+    "gdpGrowthAnnualPct": {
+      "REAL": 5,
+      "ESTIMATED_MODEL": 170
+    },
+    "tradePctGdp": {
+      "ESTIMATED_MODEL": 175
+    },
+    "importsPctGdp": {
+      "ESTIMATED_MODEL": 175
+    },
+    "exportsPctGdp": {
+      "ESTIMATED_MODEL": 175
+    },
+    "electricityAccessPct": {
+      "ESTIMATED_MODEL": 175
+    }
+  }
+}

@@ -1,0 +1,21 @@
+export const THEME = Object.freeze({
+  background: "#061018",
+  backgroundDeep: "#020609",
+  land: "#0b5f73",
+  coast: "#8ef7ff",
+  coastStrong: "#dffcff",
+  node: "#00eaff",
+  nodeActive: "#dffcff",
+  traffic: "#27dff5",
+  glow: "rgba(0,234,255,0.22)",
+  scan: "rgba(0,234,255,0.52)",
+  grid: "rgba(106,232,255,0.9)",
+  countryFill: "rgba(0,198,232,0.10)",
+  particle: "#00d9ef",
+  particleIce: "#dffcff",
+  atmosphere: "rgba(0,234,255,0.16)",
+  warning: "#ffb45a",
+  critical: "#ff5b64",
+  transitionSpeed: 3.4,
+  layout: { mapPadding: 0.07, mapMaxHeight: 0.72 }
+});

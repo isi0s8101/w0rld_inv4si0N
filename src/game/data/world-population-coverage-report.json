@@ -1,0 +1,35 @@
+{
+  "countryCount": 175,
+  "inhabitedEntityCount": 174,
+  "uninhabitedEntities": [
+    "AQ"
+  ],
+  "generatedNodes": 3347,
+  "totalInfrastructureNodes": 3392,
+  "countriesWithCapital": 174,
+  "countriesWithAirport": 174,
+  "countriesWithLogistics": 174,
+  "landlockedWithPort": [],
+  "islandsWithoutGateway": [],
+  "factoriesWithoutLogistics": [],
+  "minesWithoutOutbound": [],
+  "majorCitiesWithoutBasicSupply": [],
+  "profileClassCounts": {
+    "REAL": 0,
+    "ESTIMATED": 0,
+    "DERIVED": 0,
+    "SIMULATED": 0
+  },
+  "archetypes": {
+    "ISLAND": 19,
+    "AGRICULTURAL": 74,
+    "COASTAL_INDUSTRIAL": 117,
+    "LOW_INFRASTRUCTURE": 55,
+    "RESOURCE_EXPORTER": 20,
+    "MANUFACTURING_HUB": 19,
+    "LANDLOCKED": 38,
+    "ENERGY_EXPORTER": 19,
+    "REGIONAL_TRANSIT": 17,
+    "SERVICE_ECONOMY": 8
+  }
+}

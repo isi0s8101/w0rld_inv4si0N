@@ -1,0 +1,139 @@
+{
+  "valid": true,
+  "countries": 175,
+  "day": 1,
+  "time": {
+    "hour": 24,
+    "tick": 24,
+    "day": 1,
+    "week": 0,
+    "date": "2025-01-02T00:00:00.000Z",
+    "dataClass": "SIM_TIME"
+  },
+  "physicalFlows": 54,
+  "logistics": {
+    "capacity": 1451,
+    "available": 1451,
+    "utilization": 0,
+    "bottlenecks": [],
+    "dataClass": "SIM_DERIVED"
+  },
+  "frIndicators": {
+    "logisticsCapacity": 75.06666666666666,
+    "energySecurity": 61.08733373039878,
+    "industrialCapacity": 43.0272,
+    "digitalConnectivity": 74.92684,
+    "resilience": 76.37029107697009,
+    "tradeDependency": 3.626107537923601,
+    "militarySustainment": 59.114380041617274,
+    "explanations": {
+      "energySecurity": [
+        {
+          "label": "Domestic generation",
+          "value": 11
+        },
+        {
+          "label": "Grid redundancy",
+          "value": 28
+        },
+        {
+          "label": "Storage",
+          "value": 10
+        },
+        {
+          "label": "Import dependency",
+          "value": 0
+        }
+      ],
+      "logisticsCapacity": [
+        {
+          "label": "Route availability",
+          "value": 41
+        },
+        {
+          "label": "Infrastructure health",
+          "value": 21
+        },
+        {
+          "label": "Trade dependency",
+          "value": -1
+        }
+      ]
+    },
+    "dataClass": "DERIVED_TRANSPARENT"
+  },
+  "frObjective": {
+    "primary": "ENERGY_SECURITY",
+    "secondary": "TERRITORIAL_CONTROL",
+    "ranking": [
+      {
+        "goal": "ENERGY_SECURITY",
+        "score": 38.91266626960122
+      },
+      {
+        "goal": "TERRITORIAL_CONTROL",
+        "score": 37.56301510936603
+      },
+      {
+        "goal": "INFLUENCE",
+        "score": 36.84625629973091
+      },
+      {
+        "goal": "SECURITY",
+        "score": 32.021826660388285
+      },
+      {
+        "goal": "SURVIVAL",
+        "score": 27.06730623418474
+      },
+      {
+        "goal": "TECHNOLOGY",
+        "score": 22.638449938257253
+      },
+      {
+        "goal": "PRESTIGE",
+        "score": 21.064163087478466
+      },
+      {
+        "goal": "ECONOMIC_GROWTH",
+        "score": 19.468198827816337
+      }
+    ],
+    "day": 1,
+    "dataClass": "SIM_AI_OBJECTIVES"
+  },
+  "frIntelCount": 11,
+  "memory": 100,
+  "causalEvents": 0,
+  "resourceFamilies": [
+    "oil",
+    "gas",
+    "coal",
+    "uranium",
+    "electricity",
+    "steel",
+    "copper",
+    "lithium",
+    "food",
+    "water"
+  ],
+  "diplomacyKeys": [
+    "to",
+    "diplomaticRelation",
+    "trust",
+    "trade",
+    "alliance",
+    "rivalry",
+    "influence",
+    "sanctions",
+    "energyDependency",
+    "militaryAccess",
+    "securityGuarantee",
+    "trend",
+    "historicalRelation",
+    "agreementBonus",
+    "sanctionPressure",
+    "blocAffinity",
+    "history"
+  ]
+}

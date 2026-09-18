@@ -1,0 +1,562 @@
+{
+  "schemaVersion": "1.0",
+  "routes": [
+    {
+      "id": "sea-mrs-suez",
+      "type": "SEA_ROUTE",
+      "from": "fr-port-marseille",
+      "to": "eg-suez",
+      "layer": "MARITIME",
+      "waypoints": [
+        {
+          "lat": 38.5,
+          "lon": 12.0,
+          "kind": "PORT_EXIT",
+          "sequence": 1
+        },
+        {
+          "lat": 35.5,
+          "lon": 20.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 2
+        },
+        {
+          "lat": 32.5,
+          "lon": 29.0,
+          "kind": "PORT_APPROACH",
+          "sequence": 3
+        }
+      ],
+      "distanceKm": 2600,
+      "travelTimeHours": 70,
+      "capacity": 92,
+      "congestion": 0.31,
+      "risk": 0.11,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "sea-suez-hormuz",
+      "type": "SEA_ROUTE",
+      "from": "eg-suez",
+      "to": "om-hormuz",
+      "layer": "MARITIME",
+      "waypoints": [
+        {
+          "lat": 20.0,
+          "lon": 39.0,
+          "kind": "PORT_EXIT",
+          "sequence": 1
+        },
+        {
+          "lat": 12.5,
+          "lon": 44.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 2
+        },
+        {
+          "lat": 15.0,
+          "lon": 53.0,
+          "kind": "PORT_APPROACH",
+          "sequence": 3
+        }
+      ],
+      "distanceKm": 3100,
+      "travelTimeHours": 85,
+      "capacity": 88,
+      "congestion": 0.34,
+      "risk": 0.16,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "sea-hormuz-singapore",
+      "type": "SEA_ROUTE",
+      "from": "om-hormuz",
+      "to": "sg-port",
+      "layer": "MARITIME",
+      "waypoints": [
+        {
+          "lat": 19.0,
+          "lon": 65.0,
+          "kind": "PORT_EXIT",
+          "sequence": 1
+        },
+        {
+          "lat": 9.0,
+          "lon": 80.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 2
+        },
+        {
+          "lat": 5.0,
+          "lon": 96.0,
+          "kind": "PORT_APPROACH",
+          "sequence": 3
+        }
+      ],
+      "distanceKm": 6100,
+      "travelTimeHours": 160,
+      "capacity": 90,
+      "congestion": 0.27,
+      "risk": 0.12,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "sea-rotterdam-mrs",
+      "type": "SEA_ROUTE",
+      "from": "nl-port-rotterdam",
+      "to": "fr-port-marseille",
+      "layer": "MARITIME",
+      "waypoints": [
+        {
+          "lat": 48.0,
+          "lon": -5.0,
+          "kind": "PORT_EXIT",
+          "sequence": 1
+        },
+        {
+          "lat": 36.0,
+          "lon": -6.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 2
+        },
+        {
+          "lat": 38.5,
+          "lon": 1.0,
+          "kind": "PORT_APPROACH",
+          "sequence": 3
+        }
+      ],
+      "distanceKm": 3400,
+      "travelTimeHours": 90,
+      "capacity": 86,
+      "congestion": 0.22,
+      "risk": 0.08,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "air-cdg-dubai",
+      "type": "AIR_ROUTE",
+      "from": "fr-air-cdg",
+      "to": "ae-air-dubai",
+      "layer": "AVIATION",
+      "waypoints": [
+        {
+          "lat": 46.0,
+          "lon": 17.0,
+          "kind": "DEPARTURE",
+          "sequence": 1
+        },
+        {
+          "lat": 36.0,
+          "lon": 34.0,
+          "kind": "APPROACH",
+          "sequence": 2
+        }
+      ],
+      "distanceKm": 5250,
+      "travelTimeHours": 7,
+      "capacity": 95,
+      "congestion": 0.42,
+      "risk": 0.06,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "air-cdg-ny",
+      "type": "AIR_ROUTE",
+      "from": "fr-air-cdg",
+      "to": "us-air-ny",
+      "layer": "AVIATION",
+      "waypoints": [
+        {
+          "lat": 52.0,
+          "lon": -25.0,
+          "kind": "DEPARTURE",
+          "sequence": 1
+        },
+        {
+          "lat": 49.0,
+          "lon": -50.0,
+          "kind": "APPROACH",
+          "sequence": 2
+        }
+      ],
+      "distanceKm": 5850,
+      "travelTimeHours": 8,
+      "capacity": 93,
+      "congestion": 0.38,
+      "risk": 0.05,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "road-paris-lyon",
+      "type": "ROAD_ROUTE",
+      "from": "fr-cap-paris",
+      "to": "fr-logistics-lyon",
+      "layer": "LOGISTICS",
+      "waypoints": [
+        {
+          "lat": 47.2,
+          "lon": 3.2,
+          "kind": "ROAD_JUNCTION",
+          "sequence": 1
+        },
+        {
+          "lat": 46.4,
+          "lon": 4.4,
+          "kind": "ROAD_JUNCTION",
+          "sequence": 2
+        }
+      ],
+      "distanceKm": 470,
+      "travelTimeHours": 5.5,
+      "capacity": 78,
+      "congestion": 0.36,
+      "risk": 0.04,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "road-lyon-mrs",
+      "type": "ROAD_ROUTE",
+      "from": "fr-logistics-lyon",
+      "to": "fr-port-marseille",
+      "layer": "LOGISTICS",
+      "waypoints": [
+        {
+          "lat": 44.9,
+          "lon": 4.9,
+          "kind": "ROAD_JUNCTION",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 315,
+      "travelTimeHours": 4,
+      "capacity": 76,
+      "congestion": 0.33,
+      "risk": 0.04,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "rail-paris-lyon",
+      "type": "RAIL_ROUTE",
+      "from": "fr-cap-paris",
+      "to": "fr-rail-lyon",
+      "layer": "LOGISTICS",
+      "waypoints": [
+        {
+          "lat": 47.0,
+          "lon": 3.5,
+          "kind": "RAIL_JUNCTION",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 465,
+      "travelTimeHours": 3,
+      "capacity": 90,
+      "congestion": 0.25,
+      "risk": 0.03,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "rail-lyon-mrs",
+      "type": "RAIL_ROUTE",
+      "from": "fr-rail-lyon",
+      "to": "fr-port-marseille",
+      "layer": "LOGISTICS",
+      "waypoints": [
+        {
+          "lat": 44.8,
+          "lon": 4.95,
+          "kind": "RAIL_JUNCTION",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 320,
+      "travelTimeHours": 2.2,
+      "capacity": 87,
+      "congestion": 0.28,
+      "risk": 0.03,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "pipe-fos-storage",
+      "type": "PIPELINE_ROUTE",
+      "from": "fr-refinery-fos",
+      "to": "fr-storage-south",
+      "layer": "ENERGY",
+      "waypoints": [
+        {
+          "lat": 43.48,
+          "lon": 4.96,
+          "kind": "PIPELINE_JUNCTION",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 35,
+      "travelTimeHours": 0.5,
+      "capacity": 84,
+      "congestion": 0.18,
+      "risk": 0.07,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "pipe-storage-grid",
+      "type": "PIPELINE_ROUTE",
+      "from": "fr-storage-south",
+      "to": "fr-grid-south",
+      "layer": "ENERGY",
+      "waypoints": [
+        {
+          "lat": 44.0,
+          "lon": 5.0,
+          "kind": "PIPELINE_JUNCTION",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 140,
+      "travelTimeHours": 2,
+      "capacity": 72,
+      "congestion": 0.19,
+      "risk": 0.08,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "digital-mrs-paris",
+      "type": "DIGITAL_ROUTE",
+      "from": "fr-cable-marseille",
+      "to": "fr-ixp-paris",
+      "layer": "DIGITAL",
+      "waypoints": [
+        {
+          "lat": 45.0,
+          "lon": 4.7,
+          "kind": "BACKBONE_NODE",
+          "sequence": 1
+        },
+        {
+          "lat": 47.0,
+          "lon": 3.2,
+          "kind": "BACKBONE_NODE",
+          "sequence": 2
+        }
+      ],
+      "distanceKm": 800,
+      "travelTimeHours": 0.01,
+      "capacity": 98,
+      "congestion": 0.31,
+      "risk": 0.04,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "digital-paris-frankfurt",
+      "type": "DIGITAL_ROUTE",
+      "from": "fr-ixp-paris",
+      "to": "de-dc-frankfurt",
+      "layer": "DIGITAL",
+      "waypoints": [
+        {
+          "lat": 49.3,
+          "lon": 5.7,
+          "kind": "BACKBONE_NODE",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 580,
+      "travelTimeHours": 0.01,
+      "capacity": 97,
+      "congestion": 0.28,
+      "risk": 0.03,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "orbital-kourou-ground",
+      "type": "ORBITAL_ROUTE",
+      "from": "fr-space-kourou",
+      "to": "fr-ground-toulouse",
+      "layer": "SPACE",
+      "waypoints": [
+        {
+          "lat": 20.0,
+          "lon": -35.0,
+          "kind": "ORBITAL_WAYPOINT",
+          "sequence": 1
+        },
+        {
+          "lat": 45.0,
+          "lon": -10.0,
+          "kind": "ORBITAL_WAYPOINT",
+          "sequence": 2
+        }
+      ],
+      "distanceKm": 7200,
+      "travelTimeHours": 1.5,
+      "capacity": 80,
+      "congestion": 0.05,
+      "risk": 0.1,
+      "status": "OPEN",
+      "country": null,
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "mil-airbase-cdg",
+      "type": "AIR_ROUTE",
+      "from": "fr-base-air-south",
+      "to": "fr-air-cdg",
+      "layer": "MILITARY",
+      "waypoints": [
+        {
+          "lat": 46.5,
+          "lon": 3.5,
+          "kind": "DEPARTURE",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 650,
+      "travelTimeHours": 1.2,
+      "capacity": 75,
+      "congestion": 0.1,
+      "risk": 0.12,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "naval-toulon-mrs",
+      "type": "SEA_ROUTE",
+      "from": "fr-base-naval-toulon",
+      "to": "fr-port-marseille",
+      "layer": "MILITARY",
+      "waypoints": [
+        {
+          "lat": 42.9,
+          "lon": 5.6,
+          "kind": "PORT_EXIT",
+          "sequence": 1
+        }
+      ],
+      "distanceKm": 75,
+      "travelTimeHours": 3,
+      "capacity": 70,
+      "congestion": 0.08,
+      "risk": 0.09,
+      "status": "OPEN",
+      "country": "FR",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE"
+    },
+    {
+      "id": "sea-mrs-cape-singapore",
+      "type": "SEA_ROUTE",
+      "layer": "MARITIME",
+      "country": "INTL",
+      "from": "fr-port-marseille",
+      "to": "sg-port",
+      "waypoints": [
+        {
+          "lat": 41.1,
+          "lon": 2.3,
+          "kind": "PORT_EXIT",
+          "sequence": 1
+        },
+        {
+          "lat": 35.9,
+          "lon": -5.6,
+          "kind": "CHOKEPOINT",
+          "sequence": 2,
+          "name": "Strait of Gibraltar"
+        },
+        {
+          "lat": 20.0,
+          "lon": -18.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 3
+        },
+        {
+          "lat": -8.0,
+          "lon": -3.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 4
+        },
+        {
+          "lat": -34.4,
+          "lon": 18.5,
+          "kind": "CHOKEPOINT",
+          "sequence": 5,
+          "name": "Cape of Good Hope"
+        },
+        {
+          "lat": -26.0,
+          "lon": 50.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 6
+        },
+        {
+          "lat": -8.0,
+          "lon": 78.0,
+          "kind": "SEA_CORRIDOR",
+          "sequence": 7
+        },
+        {
+          "lat": 2.0,
+          "lon": 100.0,
+          "kind": "PORT_APPROACH",
+          "sequence": 8
+        }
+      ],
+      "distanceKm": 15600,
+      "travelTimeHours": 390,
+      "capacity": 72,
+      "maxCapacity": 72,
+      "currentUsage": 0,
+      "congestion": 0.08,
+      "risk": 0.12,
+      "status": "OPEN",
+      "routeClass": "INFRASTRUCTURE",
+      "dataClass": "DEMO_APPROX_ROUTE",
+      "description": "Alternative maritime corridor Marseille–Singapore via Gibraltar and the Cape of Good Hope; used for rerouting when Suez is unavailable."
+    }
+  ]
+}

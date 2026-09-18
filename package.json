@@ -1,0 +1,24 @@
+{
+  "name": "world-invasion",
+  "version": "1.4.0-lot2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --test tests/*.test.mjs && node scripts/validate-real-world-data.mjs && node scripts/validate-flow-data.mjs && node scripts/validate-infrastructure-v1.mjs && node scripts/validate-update2-3.mjs && node scripts/validate-update3-complete.mjs && node scripts/validate-v1.2-interaction.mjs",
+    "data:sync-worldbank": "node scripts/sync-world-bank.mjs",
+    "data:validate": "node scripts/validate-real-world-data.mjs",
+    "data:freeze-start": "node scripts/freeze-real-world-start.mjs",
+    "data:audit": "node scripts/validate-real-world-data.mjs && node scripts/validate-flow-data.mjs",
+    "data:validate-flows": "node scripts/validate-flow-data.mjs",
+    "data:refresh-flows": "node scripts/refresh-flow-start.mjs",
+    "data:validate-infrastructure": "node scripts/validate-infrastructure-v1.mjs",
+    "test:update2": "node --test tests/world-invasion-v1_0-update2-systems.test.mjs",
+    "test:update3": "node --test tests/world-invasion-v1_1-update3-autonomous-world.test.mjs",
+    "validate:update2-3": "node scripts/validate-update2-3.mjs",
+    "test:update3:complete": "node --test tests/world-invasion-v1_1_1-update3-complete.test.mjs",
+    "validate:update3:complete": "node scripts/validate-update3-complete.mjs",
+    "test:interaction": "node --test tests/world-invasion-v1_2-lots1-10.test.mjs",
+    "validate:interaction": "node scripts/validate-v1.2-interaction.mjs"
+  }
+}

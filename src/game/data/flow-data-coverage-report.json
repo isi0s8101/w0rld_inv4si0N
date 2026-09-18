@@ -1,0 +1,51 @@
+{
+  "version": "0.5.0",
+  "generatedAt": "2026-09-13T13:45:00Z",
+  "snapshotId": "world-invasion-flow-v0.5-start",
+  "coverage": {
+    "countries": 175,
+    "hubs": 637,
+    "corridors": 6212,
+    "tradeDemands": 3450,
+    "energyDemands": 352,
+    "dataDemands": 1082,
+    "landNeighborPairs": 301
+  },
+  "methodology": {
+    "principle": "Real anchors where available; otherwise transparent derived or estimated aggregate networks. No precise critical-facility claim.",
+    "families": [
+      "TRADE",
+      "ENERGY",
+      "AIR",
+      "SEA",
+      "LAND",
+      "DATA"
+    ],
+    "units": {
+      "TRADE": "USD/day anchored to baseline GDP/trade estimates",
+      "ENERGY": "MODEL_ENERGY_UNITS/day",
+      "AIR": "aggregate traffic index",
+      "SEA": "aggregate cargo index",
+      "LAND": "aggregate corridor index",
+      "DATA": "MODEL_GBPS_EQUIVALENT"
+    },
+    "provenanceClasses": [
+      "REAL",
+      "DERIVED_GEOGRAPHIC_NETWORK",
+      "ESTIMATED_GRAVITY_FROM_REAL_ANCHORS",
+      "ESTIMATED_ENERGY_BALANCE_MODEL",
+      "ESTIMATED_TRAFFIC_MODEL",
+      "ESTIMATED_SHIPPING_MODEL",
+      "ESTIMATED_DATA_TOPOLOGY",
+      "ESTIMATED_DATA_DEMAND_MODEL",
+      "ESTIMATED_SPACE_BACKUP"
+    ]
+  },
+  "sourceNotes": {
+    "worldGeometry": "Bundled world.geojson",
+    "countryBaseline": "Bundled V0.4 real-world-start-snapshot",
+    "tradeReference": "World Bank WDI trade/import/export indicators when present; V0.4 estimates otherwise",
+    "electricityReference": "World Bank/ESMAP access-to-electricity indicator when present; V0.4 estimates otherwise",
+    "digitalReference": "ITU internet-use concept; country values are model estimates in V0.5 unless explicitly sourced later"
+  }
+}

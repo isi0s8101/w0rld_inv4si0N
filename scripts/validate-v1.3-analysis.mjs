@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const fail=(msg)=>{console.error(`ANALYSIS_V1_3=FAIL ${msg}`);process.exit(1);};
+const read=(rel)=>fs.readFileSync(path.join(root,rel),'utf8');
+const exists=(rel)=>fs.existsSync(path.join(root,rel));
+for(const f of ['src/analysis/CausalityModeEngine.js','src/analysis/TimelineReplayEngine.js','src/analysis/GlobalSearchEngine.js','src/visual/CausalityRenderer.js','src/ui/CausalityPanel.js','src/ui/TimelinePanel.js','src/ui/GlobalSearchPanel.js'])if(!exists(f))fail(`missing=${f}`);
+const state=read('src/core/StateManager.js');for(const k of ['causality:','timeline:','search:'])if(!state.includes(k))fail(`state=${k}`);
+const cause=read('src/analysis/CausalityModeEngine.js');for(const op of ['infrastructureGraph(','eventGraph(','why(','setDirection('])if(!cause.includes(op))fail(`causality-op=${op}`);
+for(const dir of ['UPSTREAM','DOWNSTREAM','BOTH'])if(!cause.includes(dir))fail(`direction=${dir}`);
+const timeline=read('src/analysis/TimelineReplayEngine.js');for(const op of ['setCursorDay(','replayEvent(','live(','createSnapshot(','eventSequence('])if(!timeline.includes(op))fail(`timeline-op=${op}`);if(!timeline.includes("mode:'READ_ONLY'"))fail('snapshot-readonly-contract');
+const search=read('src/analysis/GlobalSearchEngine.js');for(const kind of ['COUNTRY','INFRASTRUCTURE','ROUTE','VEHICLE','EVENT'])if(!search.includes(`kind:'${kind}'`))fail(`search-kind=${kind}`);
+const app=read('src/core/App.js');for(const key of ['CausalityModeEngine','TimelineReplayEngine','GlobalSearchEngine','ctrlKey','searchPanel?.open','causalityMode?.why'])if(!app.includes(key))fail(`app=${key}`);
+const css=read('style.css');for(const cls of ['.wi-timeline','.wi-causality','.wi-search-card','.wi-search-trigger'])if(!css.includes(cls))fail(`css=${cls}`);
+console.log('ANALYSIS_V1_3=OK causality=UPSTREAM,DOWNSTREAM,BOTH timeline=HISTORY,REPLAY,LIVE snapshots=READ_ONLY search=COUNTRY,INFRASTRUCTURE,ROUTE,VEHICLE,EVENT');

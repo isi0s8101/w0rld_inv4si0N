@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "modelId": "world-invasion-objective-estimate-v2",
+  "generatedAt": "2026-09-13",
+  "principle": "Never label generated estimates as REAL. Prefer source values; estimate only missing fields.",
+  "requiredFields": [
+    "population",
+    "populationGrowthAnnualPct",
+    "netMigration",
+    "gdpCurrentUsd",
+    "gdpPerCapitaUsd",
+    "gdpGrowthAnnualPct",
+    "tradePctGdp",
+    "importsPctGdp",
+    "exportsPctGdp",
+    "electricityAccessPct"
+  ],
+  "classes": {
+    "REAL": "Direct sourced observation.",
+    "ESTIMATED_FROM_METADATA": "Estimate/current baseline anchored to factual but undated country metadata.",
+    "ESTIMATED_FROM_REAL_ANCHOR": "Estimate anchored to a historical real dataset.",
+    "ESTIMATED_MODEL": "Deterministic bounded model estimate.",
+    "SPECIAL": "Special territory handling; not a conventional national economy."
+  },
+  "continentAssumptions": {
+    "gdpPerCapitaBaseUsd": {
+      "Europe": 28000,
+      "Asia": 8500,
+      "Africa": 2600,
+      "North America": 13500,
+      "South America": 9500,
+      "Oceania": 14500,
+      "Antarctica": 0,
+      "Seven seas (open ocean)": 0
+    },
+    "populationGrowthPct": {
+      "Europe": 0.15,
+      "Asia": 0.85,
+      "Africa": 2.05,
+      "North America": 0.75,
+      "South America": 0.65,
+      "Oceania": 1.15,
+      "Antarctica": 0.0,
+      "Seven seas (open ocean)": 0.0
+    },
+    "gdpGrowthPct": {
+      "Europe": 2.0,
+      "Asia": 4.2,
+      "Africa": 4.0,
+      "North America": 2.5,
+      "South America": 2.8,
+      "Oceania": 2.8,
+      "Antarctica": 0.0,
+      "Seven seas (open ocean)": 0.0
+    },
+    "electricityAccessPct": {
+      "Europe": 99.5,
+      "Asia": 91,
+      "Africa": 63,
+      "North America": 96,
+      "South America": 96,
+      "Oceania": 91,
+      "Antarctica": 100,
+      "Seven seas (open ocean)": 100
+    }
+  },
+  "notes": [
+    "GDP estimates use population × estimated GDP/capita.",
+    "Trade openness increases for smaller economies.",
+    "Import/export shares split the estimated trade ratio.",
+    "All generated estimates use deterministic ISO-based jitter for reproducibility."
+  ]
+}
